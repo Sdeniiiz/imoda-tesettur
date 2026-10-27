@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>i-moda Tesettür | Yeni Sezon Koleksiyonu &amp; Online Butik</title>
+  <meta name="description" content="i-moda Tesettür Samsun Bafra yeni sezon tesettür giyim, takım, elbise, pardesü, kap, tunik ve ipek eşarp koleksiyonu. İkas güvencesiyle online sipariş." />
+  <link rel="icon" type="image/webp" href="/images/brand/imoda-logo.webp" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- 0. LUXURY BRAND SPLASH PRELOADER -->
+  <div id="siteSplashLoader" class="splash-loader" aria-label="Yükleniyor">
+    <div class="splash-backdrop-glow"></div>
+    <div class="splash-content">
+      <div class="splash-logo-wrap">
+        <img src="/images/brand/imoda-logo.webp" alt="i-moda Tesettür" class="splash-logo" />
+      </div>
+      <div class="splash-brand-title">İ-MODA TESETTÜR</div>
+      <div class="splash-brand-subtitle">SAMSUN · BAFRA · ÖZEL TASARIM KOLEKSİYONU</div>
+      
+      <div class="splash-progress-track">
+        <div class="splash-progress-bar"></div>
+      </div>
+      
+      <div class="splash-status-text">Koleksiyon Hazırlanıyor...</div>
+    </div>
+  </div>
+
+  <!-- 1. TOP ANNOUNCEMENT BAR (Robin.com.tr Style) -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-message">
+        <span class="top-bar-gold">✦ İ-MODA TESETTÜR</span>
+        <span class="top-bar-divider">|</span>
+        <span id="announcementText">Yeni Sezon Tesettür Koleksiyonumuz Yayında &amp; İkas Güvencesiyle Sipariş</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" class="top-bar-link" id="topInstagramLink">@imoda_tesettur</a>
+        <span class="top-bar-divider">|</span>
+        <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer" class="top-bar-link" id="topPhoneLink">+90 546 642 61 55</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <a href="#" class="brand-logo" data-filter-cat="all">
+        <img src="/images/brand/imoda-logo.webp" alt="i-moda Tesettür Logo" class="brand-logo-img" onerror="this.style.display='none'" />
+        <div class="brand-logo-text">
+          <span class="brand-logo-title" id="headerBrandTitle">İ-MODA TESETTÜR</span>
+          <span class="brand-logo-sub" id="headerBrandSub">Samsun · Bafra</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <button type="button" class="nav-link active" data-filter-cat="all">TÜM ÜRÜNLER</button>
+        
+        <!-- GİYİM DROPDOWN -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-link nav-dropdown-btn" data-filter-group="giyim">
+            <span>GİYİM</span>
+            <svg class="dropdown-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <div class="dropdown-inner">
+              <div class="dropdown-col">
+                <div class="dropdown-header">TAKIMLAR</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="takimlar">Tüm İkili Takımlar</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="takimlar" data-search-kw="tunikli">Tunikli İkili Takım</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="takimlar" data-search-kw="etekli">Etekli Takımlar</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="takimlar" data-search-kw="elbiseli">Elbiseli İkili Takım</a>
+              </div>
+              <div class="dropdown-col">
+                <div class="dropdown-header">DIŞ GİYİM</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="pardesu">Tüm Dış Giyim</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="pardesu" data-search-kw="pardesu">Pardesü</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="pardesu" data-search-kw="kap">Kap &amp; Trençkot</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="pardesu" data-search-kw="giycik">Giyçık &amp; Ferace</a>
+              </div>
+              <div class="dropdown-col">
+                <div class="dropdown-header">GÜNLÜK &amp; ŞIK</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="elbise">Elbise &amp; Abiye</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="tunik">Tunik &amp; Gömlek</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="pantolon">Pantolon &amp; Etek</a>
+              </div>
+              <div class="dropdown-feature-col">
+                <div class="dropdown-feature-card sheen-wrap" data-filter-group="giyim">
+                  <img src="/images/instagram/fotograf_07_DbxpzUdjB00.jpg" alt="Yeni Sezon Giyim" />
+                  <div class="dropdown-feature-label">
+                    <span>Yeni Sezon Giyim</span>
+                    <strong>Tümünü Keşfet →</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BAŞÖRTÜSÜ DROPDOWN -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-link nav-dropdown-btn" data-filter-group="basortusu">
+            <span>BAŞÖRTÜSÜ</span>
+            <svg class="dropdown-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <div class="dropdown-inner">
+              <div class="dropdown-col">
+                <div class="dropdown-header">EŞARP KOLEKSİYONU</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp">Tüm Eşarplar</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="ipek">İpek Eşarp (Armine Sura)</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="ozel seri">Özel Seri Eşarp</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="guz">Güz Eşarp</a>
+              </div>
+              <div class="dropdown-col">
+                <div class="dropdown-header">ŞAL KOLEKSİYONU</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="sal">Dökümlü Şal</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="pamuk">Pamuk &amp; Krinkıl Şal</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="esarp" data-search-kw="jakar">Abiye &amp; Jakarlı Şal</a>
+              </div>
+              <div class="dropdown-feature-col">
+                <div class="dropdown-feature-card sheen-wrap" data-filter-group="basortusu">
+                  <img src="/images/instagram/fotograf_01_DePEPuOs9ic.jpg" alt="Özel Seri Eşarplar" />
+                  <div class="dropdown-feature-label">
+                    <span>İpek &amp; Özel Seri Eşarplar</span>
+                    <strong>Koleksiyonu Gör →</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AKSESUAR DROPDOWN -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-link nav-dropdown-btn" data-filter-group="aksesuar">
+            <span>AKSESUAR</span>
+            <svg class="dropdown-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <div class="dropdown-inner dropdown-inner-compact">
+              <div class="dropdown-col">
+                <div class="dropdown-header">ÇANTA &amp; CÜZDAN</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="canta">Tüm Çantalar</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="nas bag">Nas Bag Koleksiyonu</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="just polo">Just Polo Çanta</a>
+              </div>
+              <div class="dropdown-col">
+                <div class="dropdown-header">TAMAMLAYICI DETAYLAR</div>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="ignesi">Eşarp &amp; Şal İğnesi</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="bros">Yaka Broşları</a>
+                <a href="#koleksiyon" class="dropdown-link" data-filter-cat="aksesuar" data-search-kw="kemer">Toka &amp; Kemer</a>
+              </div>
+              <div class="dropdown-feature-col">
+                <div class="dropdown-feature-card sheen-wrap" data-filter-group="aksesuar">
+                  <img src="/images/brand/imoda-logo.webp" alt="İ-moda Aksesuar" style="object-fit:contain; background:#181715; padding:20px;" />
+                  <div class="dropdown-feature-label">
+                    <span>Seçkin Çanta &amp; Aksesuar</span>
+                    <strong>İncele →</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" id="searchInput" class="search-input" placeholder="Ürün veya model ara..." />
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+        </div>
+
+        <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" class="header-text-link" title="Instagram" id="headerInstagramAction">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+
+        <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer" class="header-text-link" title="WhatsApp Sipariş" id="headerWhatsappAction">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+        </a>
+
+        <a href="/admin" class="header-text-link" title="Yönetim Paneli">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+          </svg>
+          <span>Yönetim</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav-drawer" id="mobileDrawer">
+      <div class="mobile-nav-list">
+        <button type="button" class="mobile-nav-link active" data-filter-cat="all">TÜM ÜRÜNLER</button>
+        
+        <!-- Mobile Giyim Accordion -->
+        <div class="mobile-acc-item">
+          <button type="button" class="mobile-acc-trigger">
+            <span>GİYİM</span>
+            <svg class="acc-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="mobile-acc-content">
+            <button type="button" class="mobile-sublink" data-filter-group="giyim">● Tüm Giyim Koleksiyonu</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="takimlar">Takım &amp; İkili Takım</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="pardesu">Pardesü, Kap &amp; Trençkot</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="elbise">Elbise &amp; Abiye</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="tunik">Tunik &amp; Gömlek</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="pantolon">Pantolon &amp; Etek</button>
+          </div>
+        </div>
+
+        <!-- Mobile Başörtüsü Accordion -->
+        <div class="mobile-acc-item">
+          <button type="button" class="mobile-acc-trigger">
+            <span>BAŞÖRTÜSÜ</span>
+            <svg class="acc-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="mobile-acc-content">
+            <button type="button" class="mobile-sublink" data-filter-group="basortusu">● Tüm Başörtüsü Koleksiyonu</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="esarp" data-search-kw="ipek">İpek Eşarp (Armine Sura)</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="esarp" data-search-kw="ozel seri">Özel Seri Eşarp</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="esarp" data-search-kw="sal">Dökümlü Şal</button>
+          </div>
+        </div>
+
+        <!-- Mobile Aksesuar Accordion -->
+        <div class="mobile-acc-item">
+          <button type="button" class="mobile-acc-trigger">
+            <span>AKSESUAR</span>
+            <svg class="acc-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          <div class="mobile-acc-content">
+            <button type="button" class="mobile-sublink" data-filter-group="aksesuar">● Tüm Aksesuarlar</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="aksesuar" data-search-kw="canta">Çanta (Nas Bag &amp; Just Polo)</button>
+            <button type="button" class="mobile-sublink" data-filter-cat="aksesuar" data-search-kw="ignesi">Şal &amp; Eşarp İğneleri</button>
+          </div>
+        </div>
+
+        <a href="/admin" class="mobile-nav-link" style="color:var(--parla-gold-dark); margin-top:16px;">⚙️ Yönetim Paneli</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. HERO SHOWCASE -->
+    <section class="hero-section">
+      <div class="hero-grid">
+        <div class="hero-content-col">
+          <div class="hero-eyebrow">SAMSUN TESETTÜR GİYİM · İ-MODA BAFRA BUTİK</div>
+          <h1 class="hero-title">Zarafetin ve Güçlü Duruşun Zamansız Yansıması</h1>
+          <p class="hero-desc">
+            <strong>Samsun tesettür giyim</strong> ve Bafra butiğimizin seçkin yeni sezon koleksiyonu. Özenle tasarlanmış dökümlü ikili takımlar, pardesü, kap, elbise ve Armine ipek eşarplar. Beğendiğiniz ürünleri doğrudan İkas güvencesiyle tek tıkla sipariş verin.
+          </p>
+          <div style="display:flex; gap:14px; flex-wrap:wrap; align-items:center;">
+            <a href="#koleksiyon" class="editorial-link">
+              Koleksiyonu Keşfet
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 12h14M13 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="https://imodatesettur.com" target="_blank" rel="noopener noreferrer" class="editorial-link" id="heroIkasDirectBtn" style="color:var(--parla-gold-dark); text-decoration:none;">
+              İkas Mağazası
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual-col" id="heroVisualCol">
+          <!-- Dynamically populated by app.js from settings/products -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. POPÜLER KATEGORİLER -->
+    <section class="container section-block">
+      <div class="block-header">
+        <h2 class="block-title">Popüler Kategoriler</h2>
+      </div>
+      <div class="categories-grid" id="categoriesGrid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 5. YENİ ÜRÜNLERİMİZ VİTRİN -->
+    <section class="container section-block">
+      <div class="block-header">
+        <h2 class="block-title">Yeni Sezon Tasarımları</h2>
+        <a href="#koleksiyon" class="editorial-link editorial-link-dark" data-filter-cat="all">Tümünü Gör</a>
+      </div>
+      <div class="products-grid" id="newProductsGrid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 6. 2'Lİ GÖRSEL EDİTÖRYAL BLOK -->
+    <section class="container section-block">
+      <div class="dual-banner-grid" id="dualBannerGrid">
+        <!-- Dynamically populated by app.js from settings/products -->
+      </div>
+    </section>
+
+    <!-- 7. TÜM KOLEKSİYON & FİLTRELEME -->
+    <section class="container section-block" id="koleksiyon">
+      <div class="block-header">
+        <h2 class="block-title" id="collectionHeading">Öne Çıkan Koleksiyon</h2>
+        <span id="productCountText" style="font-size: 13px; color: var(--parla-muted);"></span>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs" id="collectionTabs">
+          <button type="button" class="filter-tab active" data-cat="all">Tümü</button>
+          <button type="button" class="filter-tab" data-cat="takimlar">Takım</button>
+          <button type="button" class="filter-tab" data-cat="pardesu">Pardesü &amp; Kap</button>
+          <button type="button" class="filter-tab" data-cat="elbise">Elbise</button>
+          <button type="button" class="filter-tab" data-cat="tunik">Tunik</button>
+          <button type="button" class="filter-tab" data-cat="esarp">İpek Eşarp</button>
+          <button type="button" class="filter-tab" data-cat="pantolon">Pantolon</button>
+        </div>
+
+        <div class="filter-Inline-group" id="sizeFilters">
+          <span>Beden:</span>
+          <button type="button" class="size-filter-link active" data-size="">Tümü</button>
+          <button type="button" class="size-filter-link" data-size="38">38</button>
+          <button type="button" class="size-filter-link" data-size="40">40</button>
+          <button type="button" class="size-filter-link" data-size="42">42</button>
+          <button type="button" class="size-filter-link" data-size="44">44</button>
+          <button type="button" class="size-filter-link" data-size="Standart">Standart</button>
+        </div>
+      </div>
+
+      <div class="products-grid" id="allProductsGrid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 8. INSTAGRAM GÜNCEL KOMBİNLER & MAĞAZA VİTRİNİ -->
+    <section class="container section-block" id="instagramSection">
+      <div class="block-header" style="align-items: flex-end;">
+        <div>
+          <span style="font-size: 11px; letter-spacing: 0.1em; color: var(--parla-gold-dark); text-transform: uppercase; font-weight: 600;">@imoda_tesettur</span>
+          <h2 class="block-title" style="margin-top: 4px;">Instagram'da Biz</h2>
+          <p style="font-size: 13px; color: var(--parla-muted); margin-top: 4px;">
+            Bafra butiğimizden güncel kombinler, yeni sezon parçaları ve günlük ilhamlar.
+          </p>
+        </div>
+        <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" class="editorial-link editorial-link-dark">
+          <span>Takip Et ↗</span>
+        </a>
+      </div>
+
+      <div class="instagram-grid" id="instagramGrid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 9. INFO ICON STRIP -->
+    <section class="info-strip">
+      <div class="container info-grid">
+        <div class="info-item">
+          <div class="info-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <div class="info-title">İkas Güvencesiyle Ödeme</div>
+          <div class="info-sub">Tüm siparişleriniz resmi İkas e-ticaret altyapısı ve 256-bit SSL güvencesiyle tamamlanır</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <div class="info-title">Samsun Bafra Butik</div>
+          <div class="info-sub">Cumhuriyet Mahallesi fiziksel mağazamızda birebir sıcak ilgi ve stil danışmanlığı</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <div class="info-title">1. Sınıf Kumaş &amp; Kalıp</div>
+          <div class="info-sub">Armine Trend kalitesiyle dökümlü kumaşlar, nefes alan dokular ve zarif tesettür kesimler</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <div class="info-title">Hızlı ve Güvenli Kargo</div>
+          <div class="info-sub">Tüm Türkiye'ye özenle paketlenmiş hızlı kargo gönderimi ve kolay takip imkanı</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. BUTİK MAĞAZAMIZ & KONUM (FİZİKSEL MAĞAZA) -->
+    <section class="container section-block" id="butikMagazaKonum" style="margin-top: 20px;">
+      <div class="store-location-card">
+        <div class="store-location-map">
+          <iframe
+            src="https://maps.google.com/maps?q=41.5678,35.9069&hl=tr&z=16&output=embed"
+            title="i-moda Tesettür Samsun Bafra Konum Haritası"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="store-location-info">
+          <span class="seo-eyebrow" style="color: var(--parla-gold-dark);">FİZİKSEL MAĞAZA &amp; BUTİK</span>
+          <h3 class="store-location-title">i-moda Tesettür (Bafra / Samsun)</h3>
+          <p class="store-location-desc">
+            Samsun Bafra'daki butik mağazamızda yeni sezon tesettür ikili takım, pardesü, elbise ve Armine ipek eşarp koleksiyonlarımızı yakından inceleyebilirsiniz.
+          </p>
+          <div class="store-location-meta">
+            <div class="meta-row">
+              <span class="meta-icon">📍</span>
+              <span><strong>Adres:</strong> Cumhuriyet Mah. Hükümet Cad. No: 10/B, 55400 Bafra / Samsun</span>
+            </div>
+            <div class="meta-row">
+              <span class="meta-icon">🕒</span>
+              <span><strong>Çalışma Saatleri:</strong> Her Gün: 09:00 – 20:30</span>
+            </div>
+            <div class="meta-row">
+              <span class="meta-icon">📞</span>
+              <span><strong>Telefon:</strong> <a href="tel:+905466426155">+90 546 642 61 55</a></span>
+            </div>
+          </div>
+          <div class="store-location-actions">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=41.5678,35.9069" target="_blank" rel="noopener noreferrer" class="seo-map-btn">
+              🗺️ Yol Tarifi Al (Google Haritalar)
+            </a>
+            <a href="https://wa.me/905466426155?text=Merhaba%20i-moda%20Tesett%C3%BCr%2C%20Samsun%20Bafra%20ma%C4%9Fazan%C4%B1z%C4%B1n%20konumunu%20ve%20yol%20tarifini%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="seo-wa-btn">
+              💬 WhatsApp ile Konum İste
+            </a>
+            <a href="/samsun-tesettur-giyim" class="store-guide-link">
+              📍 Samsun Mağaza Rehberi &amp; SSS Sayfası →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 9. PRODUCT DETAIL MODAL -->
+  <div class="modal-backdrop" id="productModalBackdrop" role="dialog" aria-modal="true">
+    <div class="product-modal" id="productModalContent">
+      <button type="button" class="modal-close" id="closeModalBtn" aria-label="Kapat">&times;</button>
+      <div class="modal-grid" id="modalBody">
+        <!-- Populated dynamically when product is clicked -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <img src="/images/brand/imoda-logo.webp" alt="i-moda Tesettür" class="brand-logo-img" style="filter: brightness(0) invert(1);" onerror="this.style.display='none'" />
+            <div class="brand-logo-text">
+              <span class="brand-logo-title" style="color: var(--parla-white);">İ-MODA TESETTÜR</span>
+              <span class="brand-logo-sub" style="color: var(--parla-gold-light);">Samsun · Bafra</span>
+            </div>
+          </div>
+          <p style="font-size: 13px; color: rgba(255,255,255,0.72); line-height: 1.7; max-width: 340px;">
+            Günümüz kadınının asil ve zarif tarzını yansıtan seçkin tesettür giyim koleksiyonları, ikili takımlar, şık elbiseler, dökümlü pardesüler ve ipek eşarplar.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-heading">KATEGORİLER</div>
+          <div class="footer-links" id="footerCategoryLinks">
+            <a href="#koleksiyon" data-filter-cat="takimlar">Takım &amp; İkili Takım</a>
+            <a href="#koleksiyon" data-filter-cat="pardesu">Pardesü &amp; Trençkot</a>
+            <a href="#koleksiyon" data-filter-cat="elbise">Elbise</a>
+            <a href="#koleksiyon" data-filter-cat="tunik">Tunik &amp; Gömlek</a>
+            <a href="#koleksiyon" data-filter-cat="esarp">İpek Eşarp &amp; Şal</a>
+            <a href="#koleksiyon" data-filter-cat="pantolon">Pantolon &amp; Etek</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-heading">KURUMSAL &amp; YEREL REHBER</div>
+          <div class="footer-links">
+            <a href="/samsun-tesettur-giyim">Samsun Tesettür Giyim</a>
+            <a href="/bafra-tesettur-giyim">Bafra Tesettür Mağazası</a>
+            <a href="/samsun-tesettur-magazalari">Samsun Tesettür Mağazaları</a>
+            <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" id="footerInstagramLink">Instagram Mağazamız</a>
+            <a href="https://imodatesettur.com" target="_blank" rel="noopener noreferrer" id="footerIkasLink">İkas Online Mağazamız</a>
+            <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer" id="footerWhatsappLink">WhatsApp Sipariş &amp; Danışma</a>
+            <a href="/sitemap.xml" target="_blank">Site Haritası (Sitemap XML)</a>
+            <a href="/admin">Yönetim Paneli</a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-contact-col">
+          <div class="footer-heading">İLETİŞİM &amp; BUTİK</div>
+          <div class="footer-links">
+            <span id="footerAddressText">📍 Cumhuriyet Mah. Hükümet Cad. No: 10/B, Bafra / Samsun</span>
+            <a href="tel:+905466426155" id="footerPhoneLink">📞 +90 546 642 61 55</a>
+            <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer">📷 @imoda_tesettur</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 i-moda Tesettür (Murat Ak). Tüm Hakları Saklıdır.</span>
+        <span>Online Satışlar İkas E-Ticaret Güvencesiyle Gerçekleştirilmektedir.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

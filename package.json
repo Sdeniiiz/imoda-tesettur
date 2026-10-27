@@ -1,0 +1,13 @@
+{
+  "name": "imoda-tesettur",
+  "version": "1.0.0",
+  "description": "i-moda Tesettür - Online Koleksiyon, Katalog & İkas E-Ticaret Entegrasyonu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

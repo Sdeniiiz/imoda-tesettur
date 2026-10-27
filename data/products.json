@@ -1,0 +1,1940 @@
+{
+  "settings": {
+    "brandName": "i-moda Tesettür",
+    "subtitle": "Samsun · Bafra · Özel Tasarım Koleksiyonu",
+    "phone": "+90 546 642 61 55",
+    "whatsapp": "905466426155",
+    "instagram": "https://www.instagram.com/imoda_tesettur/",
+    "instagramHandle": "@imoda_tesettur",
+    "oldWebsite": "https://imodatesettur.com",
+    "ikasStoreUrl": "https://imodatesettur.com",
+    "ikasEnabled": true,
+    "ikasFallbackToWhatsApp": true,
+    "address": "Cumhuriyet Mah. Hükümet Cad. No: 10/B, Bafra / Samsun",
+    "announcement": "YENİ SEZON TESETTÜR KOLEKSİYONUMUZ YAYINDA  |  TÜM SİPARİŞLERDE ÜCRETSİZ KARGO & İKAS GÜVENCESİ",
+    "heroImages": [
+      {
+        "image": "/instagram_medya/fotograf_09_DbaZ6UkDHpa.jpg",
+        "title": "Yeni Sezon Eşarp & Pelerin Kombini",
+        "slug": ""
+      },
+      {
+        "image": "/images/instagram/fotograf_03_Dd6MdGtDh4m.jpg",
+        "title": "İkili Takım & Yeni Sezon Stili",
+        "slug": "boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik"
+      },
+      {
+        "image": "/images/instagram/fotograf_04_Dd6MFXjjldy.jpg",
+        "title": "Zarif Ceketli Pantolon Takım",
+        "slug": "armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik"
+      }
+    ],
+    "dualBanners": [
+      {
+        "image": "/images/instagram/fotograf_07_DbxpzUdjB00.jpg",
+        "title": "İkili & Etekli Takımlar",
+        "category": "takimlar"
+      },
+      {
+        "image": "/images/instagram/fotograf_05_DdEEHfeu29L.jpg",
+        "title": "Pardesü, Kap & Giyçık",
+        "category": "pardesu"
+      }
+    ],
+    "navMenu": [
+      {
+        "id": "giyim",
+        "title": "GİYİM",
+        "featureCard": {
+          "image": "/images/instagram/fotograf_07_DbxpzUdjB00.jpg",
+          "tag": "Yeni Sezon Giyim",
+          "cta": "Tümünü Keşfet →"
+        },
+        "columns": [
+          {
+            "header": "TAKIMLAR",
+            "links": [
+              {
+                "label": "Tüm İkili Takımlar",
+                "category": "takimlar",
+                "kw": ""
+              },
+              {
+                "label": "Tunikli İkili Takım",
+                "category": "takimlar",
+                "kw": "tunikli"
+              },
+              {
+                "label": "Etekli Takımlar",
+                "category": "takimlar",
+                "kw": "etekli"
+              },
+              {
+                "label": "Elbiseli İkili Takım",
+                "category": "takimlar",
+                "kw": "elbiseli"
+              }
+            ]
+          },
+          {
+            "header": "DIŞ GİYİM",
+            "links": [
+              {
+                "label": "Tüm Dış Giyim",
+                "category": "pardesu",
+                "kw": ""
+              },
+              {
+                "label": "Pardesü",
+                "category": "pardesu",
+                "kw": "pardesu"
+              },
+              {
+                "label": "Kap & Trençkot",
+                "category": "pardesu",
+                "kw": "kap"
+              },
+              {
+                "label": "Giyçık & Ferace",
+                "category": "pardesu",
+                "kw": "giycik"
+              }
+            ]
+          },
+          {
+            "header": "GÜNLÜK & ŞIK",
+            "links": [
+              {
+                "label": "Elbise & Abiye",
+                "category": "elbise",
+                "kw": ""
+              },
+              {
+                "label": "Tunik & Gömlek",
+                "category": "tunik",
+                "kw": ""
+              },
+              {
+                "label": "Pantolon & Etek",
+                "category": "pantolon",
+                "kw": ""
+              }
+            ]
+          }
+        ],
+        "badge": "Test"
+      },
+      {
+        "id": "basortusu",
+        "title": "BAŞÖRTÜSÜ",
+        "featureCard": {
+          "image": "/images/instagram/fotograf_01_DePEPuOs9ic.jpg",
+          "tag": "İpek & Özel Seri Eşarplar",
+          "cta": "Koleksiyonu Gör →"
+        },
+        "columns": [
+          {
+            "header": "EŞARP KOLEKSİYONU",
+            "links": [
+              {
+                "label": "Tüm Eşarplar",
+                "category": "esarp",
+                "kw": ""
+              },
+              {
+                "label": "İpek Eşarp (Armine Sura)",
+                "category": "esarp",
+                "kw": "ipek"
+              },
+              {
+                "label": "Özel Seri Eşarp",
+                "category": "esarp",
+                "kw": "ozel seri"
+              },
+              {
+                "label": "Güz Eşarp",
+                "category": "esarp",
+                "kw": "guz"
+              }
+            ]
+          },
+          {
+            "header": "ŞAL KOLEKSİYONU",
+            "links": [
+              {
+                "label": "Dökümlü Şal",
+                "category": "esarp",
+                "kw": "sal"
+              },
+              {
+                "label": "Pamuk & Krinkıl Şal",
+                "category": "esarp",
+                "kw": "pamuk"
+              },
+              {
+                "label": "Abiye & Jakarlı Şal",
+                "category": "esarp",
+                "kw": "jakar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aksesuar",
+        "title": "AKSESUAR",
+        "featureCard": {
+          "image": "/images/brand/imoda-logo.webp",
+          "tag": "Seçkin Çanta & Aksesuar",
+          "cta": "İncele →"
+        },
+        "columns": [
+          {
+            "header": "ÇANTA & CÜZDAN",
+            "links": [
+              {
+                "label": "Tüm Çantalar",
+                "category": "aksesuar",
+                "kw": "canta"
+              },
+              {
+                "label": "Nas Bag Koleksiyonu",
+                "category": "aksesuar",
+                "kw": "nas bag"
+              },
+              {
+                "label": "Just Polo Çanta",
+                "category": "aksesuar",
+                "kw": "just polo"
+              }
+            ]
+          },
+          {
+            "header": "TAMAMLAYICI DETAYLAR",
+            "links": [
+              {
+                "label": "Eşarp & Şal İğnesi",
+                "category": "aksesuar",
+                "kw": "ignesi"
+              },
+              {
+                "label": "Yaka Broşları",
+                "category": "aksesuar",
+                "kw": "bros"
+              },
+              {
+                "label": "Toka & Kemer",
+                "category": "aksesuar",
+                "kw": "kemer"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "siteUrl": "https://imodatesettur.com",
+      "seoTitle": "Samsun Tesettür Giyim | i-moda Tesettür Bafra Butik & Online Mağaza",
+      "seoDescription": "Samsun tesettür giyim ve Bafra tesettür mağazası i-moda Tesettür! Yeni sezon ikili takım, pardesü, kap, trençkot, tesettür elbise, tunik ve Armine Sura ipek eşarp modelleri İkas güvencesiyle kapınızda.",
+      "seoKeywords": "samsun tesettür giyim, bafra tesettür giyim, samsun tesettür mağazaları, i-moda tesettür, imoda tesettür samsun, samsun tesettür elbise, samsun tesettür takım, bafra giyim mağazaları, armine ipek eşarp samsun, tesettür ikili takım, pardesü kap modelleri, atakum tesettür giyim, ilkadım tesettür giyim",
+      "localCity": "Samsun",
+      "localDistrict": "Bafra",
+      "postalCode": "55400",
+      "latitude": "41.5678",
+      "longitude": "35.9069",
+      "openingHours": "Mo-Su 09:00-20:30",
+      "googleMapsUrl": "https://maps.google.com/?q=Cumhuriyet+Mah.+H%C3%BCk%C3%BCmet+Cad.+No:10/B+Bafra+Samsun",
+      "asoAppName": "i-moda Tesettür Samsun",
+      "asoShortName": "i-moda",
+      "asoDescription": "Samsun Bafra Seçkin Tesettür Giyim, İkili Takım, Elbise ve İpek Eşarp Butiği",
+      "themeColor": "#11100f",
+      "ogImage": "/images/instagram/fotograf_01_DePEPuOs9ic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "id": "takimlar",
+      "name": "Takım & İkili Takım",
+      "slug": "takimlar",
+      "image": "/images/instagram/fotograf_02_Dd8Sgp6jitk.jpg",
+      "featured": true,
+      "defaultHasColors": true,
+      "defaultHasSizes": true,
+      "defaultHasFabricInfo": true,
+      "defaultHasDescription": true
+    },
+    {
+      "id": "pardesu",
+      "name": "Pardesü, Kap & Trençkot",
+      "slug": "pardesu",
+      "image": "/images/instagram/fotograf_12_DbaZMj3jJgA.jpg",
+      "featured": true,
+      "defaultHasColors": true,
+      "defaultHasSizes": true,
+      "defaultHasFabricInfo": true,
+      "defaultHasDescription": true
+    },
+    {
+      "id": "elbise",
+      "name": "Elbise",
+      "slug": "elbise",
+      "image": "/images/instagram/fotograf_08_DbqEkDgsxrd.jpg",
+      "featured": true,
+      "defaultHasColors": true,
+      "defaultHasSizes": true,
+      "defaultHasFabricInfo": true,
+      "defaultHasDescription": true
+    },
+    {
+      "id": "tunik",
+      "name": "Tunik & Gömlek",
+      "slug": "tunik",
+      "image": "/images/instagram/fotograf_10_DbaZo5ZjC1_.jpg",
+      "featured": true,
+      "defaultHasColors": true,
+      "defaultHasSizes": true,
+      "defaultHasFabricInfo": true,
+      "defaultHasDescription": true
+    },
+    {
+      "id": "pantolon",
+      "name": "Pantolon & Etek",
+      "slug": "pantolon",
+      "image": "/images/instagram/fotograf_11_DbaZc72DIMU.jpg",
+      "featured": true,
+      "defaultHasColors": true,
+      "defaultHasSizes": true,
+      "defaultHasFabricInfo": true,
+      "defaultHasDescription": true
+    }
+  ],
+  "products": [
+    {
+      "id": "imoda-yakasi-file-detayli-belden-kusakli-yandan-fermuarli-tam-boy-kap",
+      "code": "IMD-1001",
+      "title": "Yakası File Detaylı Belden Kuşaklı Tam Boy Kap",
+      "slug": "yakasi-file-detayli-belden-kusakli-yandan-fermuarli-tam-boy-kap",
+      "category": "pardesu",
+      "categoryName": "Pardesü & Trençkot",
+      "price": 3750,
+      "oldPrice": 4688,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Yakası File Detaylı Belden Kuşaklı Tam Boy Kap — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/Dd8Sgp6jitk/",
+      "ikasUrl": "https://imodatesettur.com/yakasi-file-detayli-belden-kusakli-yandan-fermuarli-tam-boy-kap",
+      "variants": [
+        {
+          "id": "imoda-yakasi-file-detayli-belden-kusakli-yandan-fermuarli-tam-boy-kap-var-1",
+          "colorName": "İNDİGO",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/yakasi-file-detayli-belden-kusakli-yandan-fermuarli-tam-boy-kap",
+          "images": [
+            "/images/instagram/fotograf_02_Dd8Sgp6jitk.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4d08cc3b-fc9f-4796-9fb0-c697143bff3a/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/979da3f6-c9d9-48ad-8810-8a274c8a80d6/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7af3ac15-da65-4fba-a910-05ba98502abf/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:28Z",
+      "updatedAt": "2026-10-26T21:04:28Z"
+    },
+    {
+      "id": "imoda-boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik",
+      "code": "IMD-1002",
+      "title": "Boydan Fermuarlı Beli Büzgü Detaylı Cepli Giyçık",
+      "slug": "boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik",
+      "category": "pardesu",
+      "categoryName": "Pardesü & Trençkot",
+      "price": 3499,
+      "oldPrice": 4374,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Boydan Fermuarlı Beli Büzgü Detaylı Cepli Giyçık — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/Dd6MdGtDh4m/",
+      "ikasUrl": "https://imodatesettur.com/boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik",
+      "variants": [
+        {
+          "id": "imoda-boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik-var-1",
+          "colorName": "TAŞ",
+          "colorHex": "#c2b6a4",
+          "ikasUrl": "https://imodatesettur.com/boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik",
+          "images": [
+            "/images/instagram/fotograf_03_Dd6MdGtDh4m.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2fd2da56-c208-4e11-ac06-35257ba2a696/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7919f66d-a52f-49b2-8532-96e35aeccdf3/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/aec4e8e3-7471-4f7b-8393-f0ec0746586c/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9f9834e9-56e6-447f-a5af-c6e99d27820b/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik-var-2",
+          "colorName": "YAĞ YEŞİLİ",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/boydan-fermuarli-beli-buzgu-detayli-cepli-giy-cik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2fd2da56-c208-4e11-ac06-35257ba2a696/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7919f66d-a52f-49b2-8532-96e35aeccdf3/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/aec4e8e3-7471-4f7b-8393-f0ec0746586c/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9f9834e9-56e6-447f-a5af-c6e99d27820b/1080/boydan-fermuarli-beli-buzgu-detayli-tas.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:37Z",
+      "updatedAt": "2026-10-26T21:04:37Z"
+    },
+    {
+      "id": "imoda-armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik",
+      "code": "IMD-1003",
+      "title": "Armine Trend Boydan Fermuarlı İpli Kapüşonlu Giyçık",
+      "slug": "armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik",
+      "category": "pardesu",
+      "categoryName": "Pardesü & Trençkot",
+      "price": 3850,
+      "oldPrice": 4812,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Boydan Fermuarlı İpli Kapüşonlu Giyçık — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/Dd6MFXjjldy/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik-var-1",
+          "colorName": "TAŞ",
+          "colorHex": "#c2b6a4",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik",
+          "images": [
+            "/images/instagram/fotograf_04_Dd6MFXjjldy.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/654f58ed-783c-4f13-b6e4-974eb5c28a94/1080/whatsapp-image-2026-06-22-at-17.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f6c25b2a-cf56-4704-ba5e-6d75c30c86fc/1080/whatsapp-image-2026-06-22-at-17.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5f1803fd-8366-4c4a-a1f7-b400a94dab6f/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f49026f8-b621-4f57-be01-5e634f966654/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/57041683-1fcd-42fa-8654-25392c052fb5/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas3.webp"
+          ],
+          "sizes": [
+            {
+              "size": "1",
+              "inStock": true
+            },
+            {
+              "size": "2",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik-var-2",
+          "colorName": "SİYAH",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-boydan-fermuarli-beli-ipli-kapusonlu-giycik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/654f58ed-783c-4f13-b6e4-974eb5c28a94/1080/whatsapp-image-2026-06-22-at-17.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f6c25b2a-cf56-4704-ba5e-6d75c30c86fc/1080/whatsapp-image-2026-06-22-at-17.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5f1803fd-8366-4c4a-a1f7-b400a94dab6f/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f49026f8-b621-4f57-be01-5e634f966654/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/57041683-1fcd-42fa-8654-25392c052fb5/1080/boydan-fermuarli-beli-ipli-kapusonlu-tas3.webp"
+          ],
+          "sizes": [
+            {
+              "size": "1",
+              "inStock": true
+            },
+            {
+              "size": "2",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:40Z",
+      "updatedAt": "2026-10-26T21:04:40Z"
+    },
+    {
+      "id": "imoda-armine-trend-dantel-detayli-etekli-takim",
+      "code": "IMD-1004",
+      "title": "Armine Trend Dantel Detaylı Etekli Takım",
+      "slug": "armine-trend-dantel-detayli-etekli-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 3999,
+      "oldPrice": 4999,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Dantel Detaylı Etekli Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DdEEHfeu29L/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-dantel-detayli-etekli-takim",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-dantel-detayli-etekli-takim-var-1",
+          "colorName": "SİYAH",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-dantel-detayli-etekli-takim",
+          "images": [
+            "/images/instagram/fotograf_05_DdEEHfeu29L.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7ced4a96-dbad-4df9-89d0-ff845a9490fa/1080/img20260429182941.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2d901181-27a4-4bdc-915e-439528b757bd/1080/img20260429183211.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b8cae0fe-a86b-4f05-a6b7-1e3ab68c164e/1080/img20260429183250.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1c04360a-21a7-49f3-afef-f392da9c0aa2/1080/img20260429183319.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:50Z",
+      "updatedAt": "2026-10-26T21:04:50Z"
+    },
+    {
+      "id": "imoda-armine-trend-takim",
+      "code": "IMD-1005",
+      "title": "Armine Trend Pantolonlu İkili Takım",
+      "slug": "armine-trend-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 3599,
+      "oldPrice": 4499,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Pantolonlu İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/Dc_JGvQI_w5/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-takim",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-takim-var-1",
+          "colorName": "KAHVERENGİ",
+          "colorHex": "#5c4033",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-takim",
+          "images": [
+            "/images/instagram/fotograf_06_Dc_JGvQI_w5.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/437a4fb0-c03e-47be-82f5-cf0618924907/1080/img20260429172328-kopya.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/df5b4275-f2a3-4acc-ad25-451ae88db9fa/1080/img20260429172510.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/69b1160f-efab-4dc1-a6c9-a9c0ccf0623e/1080/img20260429172346.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:52Z",
+      "updatedAt": "2026-10-26T21:04:52Z"
+    },
+    {
+      "id": "imoda-armine-trend-yaka-bros-detay-pantolonlu-takim",
+      "code": "IMD-1006",
+      "title": "Armine Trend Yaka Broş Detay Pantolonlu Takım",
+      "slug": "armine-trend-yaka-bros-detay-pantolonlu-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 3499,
+      "oldPrice": 4374,
+      "isNew": true,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Yaka Broş Detay Pantolonlu Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DbxpzUdjB00/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-yaka-bros-detay-pantolonlu-takim",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-yaka-bros-detay-pantolonlu-takim-var-1",
+          "colorName": "HAKİ",
+          "colorHex": "#595f43",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-yaka-bros-detay-pantolonlu-takim",
+          "images": [
+            "/images/instagram/fotograf_07_DbxpzUdjB00.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3b131166-8f2b-4ec6-9088-178c402bef25/1080/armi1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f2843614-b696-4238-88bc-465ca8ca8737/1080/armi2.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-armine-trend-yaka-bros-detay-pantolonlu-takim-var-2",
+          "colorName": "TAŞ",
+          "colorHex": "#c2b6a4",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-yaka-bros-detay-pantolonlu-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3b131166-8f2b-4ec6-9088-178c402bef25/1080/armi1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f2843614-b696-4238-88bc-465ca8ca8737/1080/armi2.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:04:55Z",
+      "updatedAt": "2026-10-26T21:04:55Z"
+    },
+    {
+      "id": "imoda-beli-buzgulu-kolsuz-elbiseli-hirkali-ikili-takim",
+      "code": "IMD-1008",
+      "title": "Beli Büzgülü Kolsuz Elbiseli Hırkalı İkili Takım",
+      "slug": "beli-buzgulu-kolsuz-elbiseli-hirkali-ikili-takim",
+      "category": "elbise",
+      "categoryName": "Elbise",
+      "price": 4199,
+      "oldPrice": 5249,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Beli Büzgülü Kolsuz Elbiseli Hırkalı İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DbaZ6UkDHpa/",
+      "ikasUrl": "https://imodatesettur.com/beli-buzgulu-kolsuz-elbiseli-hirkali-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-beli-buzgulu-kolsuz-elbiseli-hirkali-ikili-takim-var-1",
+          "colorName": "ANTRASİT",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/beli-buzgulu-kolsuz-elbiseli-hirkali-ikili-takim",
+          "images": [
+            "/images/instagram/fotograf_09_DbaZ6UkDHpa.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1ea9dc81-19cc-4e13-849b-aa979169db18/1080/beli-buzgulu-kolsuz-elbiseli-hirkali-i-2b8a0da.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7981a8fe-f14b-4788-81a2-a6d05409b74d/1080/beli-buzgulu-kolsuz-elbiseli-hirkali-i-791e-bc.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a32bf991-048e-41d8-bf01-7ae3c671932f/1080/beli-buzgulu-kolsuz-elbiseli-hirkali-i-39293b.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5cc16e82-3955-441e-bb49-7f8deb7813ec/1080/beli-buzgulu-kolsuz-elbiseli-hirkali-i-b3b535g.webp"
+          ],
+          "sizes": [
+            {
+              "size": "1",
+              "inStock": true
+            },
+            {
+              "size": "2",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:01Z",
+      "updatedAt": "2026-10-26T21:05:01Z"
+    },
+    {
+      "id": "imoda-ceketli-pantolon-takim",
+      "code": "IMD-1009",
+      "title": "Ceketli Pantolon Takım",
+      "slug": "ceketli-pantolon-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 4599,
+      "oldPrice": 5749,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Ceketli Pantolon Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DbaZo5ZjC1_/",
+      "ikasUrl": "https://imodatesettur.com/ceketli-pantolon-takim",
+      "variants": [
+        {
+          "id": "imoda-ceketli-pantolon-takim-var-1",
+          "colorName": "KAHVERENGİ",
+          "colorHex": "#5c4033",
+          "ikasUrl": "https://imodatesettur.com/ceketli-pantolon-takim",
+          "images": [
+            "/images/instagram/fotograf_10_DbaZo5ZjC1_.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4fec774b-2336-47b9-8d82-8f2738d6a343/1080/whatsapp-image-2026-05-18-at-21.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0756b886-caf5-4818-9ea1-b4e04a1d94f8/1080/whatsapp-image-2026-05-18-at-21.webp",
+            "https://cdn.myikas.com/videos/ded3c0b1-00da-4bbf-93e9-103229804ab5/6ffed3bf-0859-4542-8d53-2f3d7e779fbb/original.mp4"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:04Z",
+      "updatedAt": "2026-10-26T21:05:04Z"
+    },
+    {
+      "id": "imoda-file-detay-pantolonlu-takim",
+      "code": "IMD-1010",
+      "title": "File Detay Pantolonlu Takım",
+      "slug": "file-detay-pantolonlu-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 4799,
+      "oldPrice": 5999,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "File Detay Pantolonlu Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DbaZc72DIMU/",
+      "ikasUrl": "https://imodatesettur.com/file-detay-pantolonlu-takim",
+      "variants": [
+        {
+          "id": "imoda-file-detay-pantolonlu-takim-var-1",
+          "colorName": "HAKİ",
+          "colorHex": "#595f43",
+          "ikasUrl": "https://imodatesettur.com/file-detay-pantolonlu-takim",
+          "images": [
+            "/images/instagram/fotograf_11_DbaZc72DIMU.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/fe86fa7a-ccf7-4ba3-beb2-e7a219f816b1/1080/avenna-file-detayli-fermuarli-cepli-haki1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b9719be9-76df-4d21-a4c5-d637233ef530/1080/avenna-file-detayli-fermuarli-cepli-haki2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f2fa5d9b-789b-4efe-ac68-64e216c9dec9/1080/avenna-file-detayli-fermuarli-cepli-haki3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6c2d5a38-addc-4524-9b85-220a48ba8d04/1080/avenna-file-detayli-fermuarli-cepli-haki4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/67d1d7ab-3b5e-4979-be61-fab8c412fc56/1080/avenna-file-detayli-fermuarli-cepli-tarcin1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7542174e-00a9-455c-a585-cf8253c04168/1080/avenna-file-detayli-fermuarli-cepli-tarcin2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9e1e3936-b3a3-44c7-b27d-2305f40ed813/1080/avenna-file-detayli-fermuarli-cepli-tarcin3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5dbfc3ae-2f43-4d78-8a50-01b252d77018/1080/avenna-file-detayli-fermuarli-cepli-tarcin4.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-file-detay-pantolonlu-takim-var-2",
+          "colorName": "TARÇIN",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/file-detay-pantolonlu-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/fe86fa7a-ccf7-4ba3-beb2-e7a219f816b1/1080/avenna-file-detayli-fermuarli-cepli-haki1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b9719be9-76df-4d21-a4c5-d637233ef530/1080/avenna-file-detayli-fermuarli-cepli-haki2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f2fa5d9b-789b-4efe-ac68-64e216c9dec9/1080/avenna-file-detayli-fermuarli-cepli-haki3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6c2d5a38-addc-4524-9b85-220a48ba8d04/1080/avenna-file-detayli-fermuarli-cepli-haki4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/67d1d7ab-3b5e-4979-be61-fab8c412fc56/1080/avenna-file-detayli-fermuarli-cepli-tarcin1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7542174e-00a9-455c-a585-cf8253c04168/1080/avenna-file-detayli-fermuarli-cepli-tarcin2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9e1e3936-b3a3-44c7-b27d-2305f40ed813/1080/avenna-file-detayli-fermuarli-cepli-tarcin3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5dbfc3ae-2f43-4d78-8a50-01b252d77018/1080/avenna-file-detayli-fermuarli-cepli-tarcin4.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:07Z",
+      "updatedAt": "2026-10-26T21:05:07Z"
+    },
+    {
+      "id": "imoda-file-detayli-salas-kesim-tunikli-ikili-takim",
+      "code": "IMD-1011",
+      "title": "File Detaylı Salaş Kesim Tunikli İkili Takım",
+      "slug": "file-detayli-salas-kesim-tunikli-ikili-takim",
+      "category": "esarp",
+      "categoryName": "İpek Eşarp & Şal",
+      "price": 3950,
+      "oldPrice": 4938,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": false,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "File Detaylı Salaş Kesim Tunikli İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/p/DbaZMj3jJgA/",
+      "ikasUrl": "https://imodatesettur.com/file-detayli-salas-kesim-tunikli-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-file-detayli-salas-kesim-tunikli-ikili-takim-var-1",
+          "colorName": "SİYAH",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/file-detayli-salas-kesim-tunikli-ikili-takim",
+          "images": [
+            "/images/instagram/fotograf_12_DbaZMj3jJgA.jpg",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/61357a2c-91bf-4e6c-987a-dc288fe2000d/1080/file-detayli-salas-kesim-tunikli-ikili-7e5-8eaasas.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6e9c5622-8c84-4d51-8424-1b9fde3b5ef5/1080/file-detayli-salas-kesim-tunikli-ikili-9580-fafsfw.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e7d9df9a-b2fb-4bbc-80f9-1f1610588a5e/1080/file-detayli-salas-kesim-tunikli-ikili-ca-4c2wrgwgw.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/556c244e-f98e-4ae8-a581-8878f407e381/1080/file-detayli-salas-kesim-tunikli-ikili-f58c3bhejeee.webp"
+          ],
+          "sizes": []
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:14Z",
+      "updatedAt": "2026-10-26T21:05:14Z"
+    },
+    {
+      "id": "imoda-armine-trend-salas-kesim-gomlek-yaka-pantolonlu-ikili-takim",
+      "code": "IMD-1012",
+      "title": "Armine Trend Salaş Kesim Gömlek Yaka İkili Takım",
+      "slug": "armine-trend-salas-kesim-gomlek-yaka-pantolonlu-ikili-takim",
+      "category": "esarp",
+      "categoryName": "İpek Eşarp & Şal",
+      "price": 3800,
+      "oldPrice": 4750,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": false,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Salaş Kesim Gömlek Yaka İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-salas-kesim-gomlek-yaka-pantolonlu-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-salas-kesim-gomlek-yaka-pantolonlu-ikili-takim-var-1",
+          "colorName": "BORDO",
+          "colorHex": "#6b1d2f",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-salas-kesim-gomlek-yaka-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4166f2d8-f275-4b9c-904b-b29154a9eadc/1080/salas-kesim-gomlek-yaka-pantolonlu-bordo1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/d968be9f-85eb-4edd-af83-d1ac5fa90ed9/1080/salas-kesim-gomlek-yaka-pantolonlu-bordo2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5783397d-562e-4f98-b3fb-516136bdfe67/1080/salas-kesim-gomlek-yaka-pantolonlu-bordo3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3a32b976-0f5a-43e8-bd91-1bd0001d3af3/1080/salas-kesim-gomlek-yaka-pantolonlu-bordo4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/bba04f13-0bfa-4475-aa9a-364e137abb9f/1080/salas-kesim-gomlek-yaka-pantolonlu-bordo5.webp"
+          ],
+          "sizes": []
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:16Z",
+      "updatedAt": "2026-10-26T21:05:16Z"
+    },
+    {
+      "id": "imoda-tensel-denim-gomlek-ve-etek-pantolonlu-ikili-takim",
+      "code": "IMD-1013",
+      "title": "Tensel Denim Gömlek ve Etek Pantolonlu İkili Takım",
+      "slug": "tensel-denim-gomlek-ve-etek-pantolonlu-ikili-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 4850,
+      "oldPrice": 6062,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Tensel Denim Gömlek ve Etek Pantolonlu İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/tensel-denim-gomlek-ve-etek-pantolonlu-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-tensel-denim-gomlek-ve-etek-pantolonlu-ikili-takim-var-1",
+          "colorName": "LACİVERT",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/tensel-denim-gomlek-ve-etek-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/8b4ec808-5851-4e54-9b37-6334861a0d0a/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/95335ec0-2c73-4425-ba5f-058dfe9b5b87/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e46767f5-cd1b-469a-bab4-ef927376ae00/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:18Z",
+      "updatedAt": "2026-10-26T21:05:18Z"
+    },
+    {
+      "id": "imoda-kusak-detayli-yelekli-pantolonlu-ikili-takim",
+      "code": "IMD-1014",
+      "title": "Kuşak Detaylı Yelekli Pantolonlu İkili Takım",
+      "slug": "kusak-detayli-yelekli-pantolonlu-ikili-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 3400,
+      "oldPrice": 4250,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Kuşak Detaylı Yelekli Pantolonlu İkili Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/kusak-detayli-yelekli-pantolonlu-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-kusak-detayli-yelekli-pantolonlu-ikili-takim-var-1",
+          "colorName": "LACİVERT",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/kusak-detayli-yelekli-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3e1c6648-809c-47e7-a178-d14a5e370123/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2f0d7ad9-a4ad-454c-8b39-3280395874d1/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5c3d231f-b952-4a9d-b327-a0d5532d188d/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7fece893-e340-429c-a43d-94e91c35cbdb/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/d2249aa6-5ad0-45d1-bbe6-dd5e0b8e3193/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/07d8e761-4907-4272-b0a7-e6084827567c/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/65df0252-b94f-46c1-b1cf-d7ec8eae68e4/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6eb645dd-8ff7-4885-a621-a37e6b27ebc6/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1cbc9ff0-2355-429b-a4bb-0a91f03d1cb4/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-indigo-2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/18678ba6-05f4-450e-9e65-1aa8e8805a70/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-indigo-1.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-kusak-detayli-yelekli-pantolonlu-ikili-takim-var-2",
+          "colorName": "HAKİ",
+          "colorHex": "#595f43",
+          "ikasUrl": "https://imodatesettur.com/kusak-detayli-yelekli-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3e1c6648-809c-47e7-a178-d14a5e370123/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2f0d7ad9-a4ad-454c-8b39-3280395874d1/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/5c3d231f-b952-4a9d-b327-a0d5532d188d/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/7fece893-e340-429c-a43d-94e91c35cbdb/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/d2249aa6-5ad0-45d1-bbe6-dd5e0b8e3193/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/07d8e761-4907-4272-b0a7-e6084827567c/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/65df0252-b94f-46c1-b1cf-d7ec8eae68e4/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6eb645dd-8ff7-4885-a621-a37e6b27ebc6/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1cbc9ff0-2355-429b-a4bb-0a91f03d1cb4/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-indigo-2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/18678ba6-05f4-450e-9e65-1aa8e8805a70/1080/kusak-detayli-yelekli-pantolonlu-ikili-takim-indigo-1.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:20Z",
+      "updatedAt": "2026-10-26T21:05:20Z"
+    },
+    {
+      "id": "imoda-etek-ucu-garni-detayli-kruvazeyaka-pantolonlu-ikili-takim",
+      "code": "IMD-1015",
+      "title": "Etek Ucu Garni Detaylı Kruvaze Yaka Pantolonlu Takım",
+      "slug": "etek-ucu-garni-detayli-kruvazeyaka-pantolonlu-ikili-takim",
+      "category": "takimlar",
+      "categoryName": "Takım",
+      "price": 4300,
+      "oldPrice": 5375,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Etek Ucu Garni Detaylı Kruvaze Yaka Pantolonlu Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/etek-ucu-garni-detayli-kruvazeyaka-pantolonlu-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-etek-ucu-garni-detayli-kruvazeyaka-pantolonlu-ikili-takim-var-1",
+          "colorName": "KAHVERENGİ",
+          "colorHex": "#5c4033",
+          "ikasUrl": "https://imodatesettur.com/etek-ucu-garni-detayli-kruvazeyaka-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/dc9ec123-6b41-40e0-acc5-533be06656eb/1080/etek-ucu-garni-detayli-kruvaze-yaka-1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/61b765f1-ec2a-44bf-9091-cf514380c176/1080/etek-ucu-garni-detayli-kruvaze-yaka-2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c09431b2-22cd-47cf-b8a0-65cf68b1bfca/1080/etek-ucu-garni-detayli-kruvaze-yaka-3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/31f81f75-db1b-4243-997b-4e14836821ce/1080/etek-ucu-garni-detayli-kruvaze-yaka-4.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:23Z",
+      "updatedAt": "2026-10-26T21:05:23Z"
+    },
+    {
+      "id": "imoda-cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim",
+      "code": "IMD-1016",
+      "title": "Çiçek Desenli Beli Büzgülü Tunik & Pantolon Takım",
+      "slug": "cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 4250,
+      "oldPrice": 5312,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Çiçek Desenli Beli Büzgülü Tunik & Pantolon Takım — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim",
+      "variants": [
+        {
+          "id": "imoda-cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim-var-1",
+          "colorName": "İNDİGO",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0b7b518a-00c0-456e-b6f6-93b5061387f2/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/bd3df2a2-4a40-406b-8186-7ec6277b4e95/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a3028b5a-8e39-45ee-b1f3-2e17b723c2ce/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b29627c4-aaff-41a2-a8f4-89221c03fe5e/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/62775ca8-27c7-4fb5-9f71-c617525f3426/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e4fdda27-3125-4ea7-8846-e5d529383328/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cbce028e-2577-4962-8080-e100bd6ec1c8/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/40bb34dc-bb0a-44f7-a379-c95b1660539e/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim-var-2",
+          "colorName": "BEJ",
+          "colorHex": "#d7cbba",
+          "ikasUrl": "https://imodatesettur.com/cicek-desenli-beli-buzgulu-tunik-ve-genis-paca-pantolonlu-ikili-takim",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0b7b518a-00c0-456e-b6f6-93b5061387f2/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/bd3df2a2-4a40-406b-8186-7ec6277b4e95/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a3028b5a-8e39-45ee-b1f3-2e17b723c2ce/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b29627c4-aaff-41a2-a8f4-89221c03fe5e/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/62775ca8-27c7-4fb5-9f71-c617525f3426/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e4fdda27-3125-4ea7-8846-e5d529383328/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cbce028e-2577-4962-8080-e100bd6ec1c8/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/40bb34dc-bb0a-44f7-a379-c95b1660539e/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:32Z",
+      "updatedAt": "2026-10-26T21:05:32Z"
+    },
+    {
+      "id": "imoda-gold-dugmeli-kemerli-cepli-elbise",
+      "code": "IMD-1017",
+      "title": "Gold Düğmeli Kemerli Cepli Elbise",
+      "slug": "gold-dugmeli-kemerli-cepli-elbise",
+      "category": "elbise",
+      "categoryName": "Elbise",
+      "price": 3999,
+      "oldPrice": 4999,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Gold Düğmeli Kemerli Cepli Elbise — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/gold-dugmeli-kemerli-cepli-elbise",
+      "variants": [
+        {
+          "id": "imoda-gold-dugmeli-kemerli-cepli-elbise-var-1",
+          "colorName": "İNDİGO",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/gold-dugmeli-kemerli-cepli-elbise",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/49b3aeda-a081-49eb-ae02-e1b97267cce3/1080/gold-dugmeli-kemerli-cepli-elbise-indigo1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/6d305b16-ddad-411a-96b2-424083df4dad/1080/gold-dugmeli-kemerli-cepli-elbise-indigo2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/718d90d1-fced-4b48-a7c2-dd8686885679/1080/gold-dugmeli-kemerli-cepli-elbise-indigo3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41efd822-b55d-412a-83f0-459a2155cb44/1080/gold-dugmeli-kemerli-cepli-elbise-indigo4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e1a4e43b-8719-47ea-af13-9436145751cf/1080/gold-dugmeli-kemerli-cepli-elbise-indigo5.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:32Z",
+      "updatedAt": "2026-10-26T21:05:32Z"
+    },
+    {
+      "id": "imoda-armine-tunik-elbise",
+      "code": "IMD-1018",
+      "title": "Armine Trend Tunik Elbise",
+      "slug": "armine-tunik-elbise",
+      "category": "elbise",
+      "categoryName": "Elbise",
+      "price": 1999,
+      "oldPrice": 2499,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Tunik Elbise — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-tunik-elbise",
+      "variants": [
+        {
+          "id": "imoda-armine-tunik-elbise-var-1",
+          "colorName": "PETROL",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-tunik-elbise",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/fedcb452-2108-44ea-a8da-3c0d5ef37983/1080/armine-tunik-elbise-bej-agtn1136-a.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f57174b1-f56b-4c2a-be19-62dcd06fa3b6/1080/armine-tunik-elbise-bej-agtn1136-b.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0e704658-64ee-4cc2-a570-0b0bfbf320a6/1080/armine-tunik-elbise-bej-agtn1136-c.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/305d2856-cfa4-4e5d-b49a-2b548be5979e/1080/armine-tunik-elbise-bej-agtn1136-d.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4a49c0b9-8930-4dbf-bc4a-cf597f1155ce/1080/armine-tunik-elbise-bej-agtn1136-e.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/21de5ad5-8559-454b-8a3d-d7cc4d650444/1080/armine-tunik-elbise-petrol-agtn1136-a.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1961b800-eb26-4893-81e6-f46ec13310b0/1080/armine-tunik-elbise-petrol-agtn1136-b.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2445a394-2e65-442a-9642-a2ca480617c6/1080/armine-tunik-elbise-petrol-agtn1136-c.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cadb7fe4-8544-4859-88c7-ec2a2fc5cade/1080/armine-tunik-elbise-petrol-agtn1136-d.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0d862402-982e-4a20-88c7-e70f077d79c1/1080/armine-tunik-elbise-petrol-agtn1136-e.webp"
+          ],
+          "sizes": [
+            {
+              "size": "36",
+              "inStock": true
+            },
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-armine-tunik-elbise-var-2",
+          "colorName": "BEJ",
+          "colorHex": "#d7cbba",
+          "ikasUrl": "https://imodatesettur.com/armine-tunik-elbise",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/fedcb452-2108-44ea-a8da-3c0d5ef37983/1080/armine-tunik-elbise-bej-agtn1136-a.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/f57174b1-f56b-4c2a-be19-62dcd06fa3b6/1080/armine-tunik-elbise-bej-agtn1136-b.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0e704658-64ee-4cc2-a570-0b0bfbf320a6/1080/armine-tunik-elbise-bej-agtn1136-c.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/305d2856-cfa4-4e5d-b49a-2b548be5979e/1080/armine-tunik-elbise-bej-agtn1136-d.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4a49c0b9-8930-4dbf-bc4a-cf597f1155ce/1080/armine-tunik-elbise-bej-agtn1136-e.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/21de5ad5-8559-454b-8a3d-d7cc4d650444/1080/armine-tunik-elbise-petrol-agtn1136-a.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1961b800-eb26-4893-81e6-f46ec13310b0/1080/armine-tunik-elbise-petrol-agtn1136-b.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/2445a394-2e65-442a-9642-a2ca480617c6/1080/armine-tunik-elbise-petrol-agtn1136-c.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cadb7fe4-8544-4859-88c7-ec2a2fc5cade/1080/armine-tunik-elbise-petrol-agtn1136-d.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0d862402-982e-4a20-88c7-e70f077d79c1/1080/armine-tunik-elbise-petrol-agtn1136-e.webp"
+          ],
+          "sizes": [
+            {
+              "size": "36",
+              "inStock": true
+            },
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:34Z",
+      "updatedAt": "2026-10-26T21:05:34Z"
+    },
+    {
+      "id": "imoda-gizli-dugmeli-hakim-yaka-uzun-tunik",
+      "code": "IMD-1019",
+      "title": "Gizli Düğmeli Hakim Yaka Uzun Tunik",
+      "slug": "gizli-dugmeli-hakim-yaka-uzun-tunik",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 2649,
+      "oldPrice": 3311,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Gizli Düğmeli Hakim Yaka Uzun Tunik — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/gizli-dugmeli-hakim-yaka-uzun-tunik",
+      "variants": [
+        {
+          "id": "imoda-gizli-dugmeli-hakim-yaka-uzun-tunik-var-1",
+          "colorName": "YAĞ YEŞİLİ",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/gizli-dugmeli-hakim-yaka-uzun-tunik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/035e5291-17f7-49d7-ba4d-928bf7cfa8fd/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3a808975-6b24-4253-9229-e596995b827f/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41ebe29f-5ff6-4861-af51-677c826d3f49/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0acdabcb-ab6e-4fcc-833a-672643938e94/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/21af8ee8-7dba-4f5f-8ed1-5114fc4bb8ca/1080/gizli-dugmeli-hakim-yaka-uzun-tunik1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a8f0f0b8-cffd-4930-b617-9fdb49adc467/1080/gizli-dugmeli-hakim-yaka-uzun-tunik2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/154fea7b-2c21-449f-8d64-61c78f4d21cc/1080/gizli-dugmeli-hakim-yaka-uzun-tunik3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a628e934-5595-43ce-9ba1-d3d9a81bf29e/1080/gizli-dugmeli-hakim-yaka-uzun-tunik4.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-gizli-dugmeli-hakim-yaka-uzun-tunik-var-2",
+          "colorName": "VİŞNE",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/gizli-dugmeli-hakim-yaka-uzun-tunik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/035e5291-17f7-49d7-ba4d-928bf7cfa8fd/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3a808975-6b24-4253-9229-e596995b827f/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41ebe29f-5ff6-4861-af51-677c826d3f49/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/0acdabcb-ab6e-4fcc-833a-672643938e94/1080/gizli-dugmeli-hakim-yaka-uzun-tunik-yag-yesili4.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/21af8ee8-7dba-4f5f-8ed1-5114fc4bb8ca/1080/gizli-dugmeli-hakim-yaka-uzun-tunik1.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a8f0f0b8-cffd-4930-b617-9fdb49adc467/1080/gizli-dugmeli-hakim-yaka-uzun-tunik2.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/154fea7b-2c21-449f-8d64-61c78f4d21cc/1080/gizli-dugmeli-hakim-yaka-uzun-tunik3.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a628e934-5595-43ce-9ba1-d3d9a81bf29e/1080/gizli-dugmeli-hakim-yaka-uzun-tunik4.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:42Z",
+      "updatedAt": "2026-10-26T21:05:42Z"
+    },
+    {
+      "id": "imoda-kado-isleme-detayli-tunik",
+      "code": "IMD-1020",
+      "title": "Kado İşleme Detaylı Tunik",
+      "slug": "kado-isleme-detayli-tunik",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 1500,
+      "oldPrice": 1875,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Kado İşleme Detaylı Tunik — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/kado-isleme-detayli-tunik",
+      "variants": [
+        {
+          "id": "imoda-kado-isleme-detayli-tunik-var-1",
+          "colorName": "BEYAZ/MAVİ",
+          "colorHex": "#3a6b88",
+          "ikasUrl": "https://imodatesettur.com/kado-isleme-detayli-tunik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cc6642db-0c56-4b46-ac56-abc2197c1596/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c0aedcee-69ce-4f5c-a679-7e2534d68d89/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c200f5a2-ac3d-45c6-bfce-8b82edebbc78/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/32fa532d-9d4f-4e9c-93da-3505bc082b09/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/65236923-d071-4a23-bfac-5cc05ec195e7/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/839064f3-acb3-434c-b68d-08e4b2774317/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b30c7d36-d443-4c27-9800-9cc29e042140/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9ec484f6-e390-4fe0-b94d-0f95404d12dd/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41406460-3e52-4d77-bfbe-929b80e1bf19/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e11a0507-1256-4a1c-9248-f2b636fc1230/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-kado-isleme-detayli-tunik-var-2",
+          "colorName": "BEYAZ/KAHVERENGİ",
+          "colorHex": "#5c4033",
+          "ikasUrl": "https://imodatesettur.com/kado-isleme-detayli-tunik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cc6642db-0c56-4b46-ac56-abc2197c1596/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c0aedcee-69ce-4f5c-a679-7e2534d68d89/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c200f5a2-ac3d-45c6-bfce-8b82edebbc78/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/32fa532d-9d4f-4e9c-93da-3505bc082b09/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/65236923-d071-4a23-bfac-5cc05ec195e7/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/839064f3-acb3-434c-b68d-08e4b2774317/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b30c7d36-d443-4c27-9800-9cc29e042140/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9ec484f6-e390-4fe0-b94d-0f95404d12dd/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41406460-3e52-4d77-bfbe-929b80e1bf19/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e11a0507-1256-4a1c-9248-f2b636fc1230/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "imoda-kado-isleme-detayli-tunik-var-3",
+          "colorName": "BEYAZ/AÇIK MAVİ",
+          "colorHex": "#3a6b88",
+          "ikasUrl": "https://imodatesettur.com/kado-isleme-detayli-tunik",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/cc6642db-0c56-4b46-ac56-abc2197c1596/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c0aedcee-69ce-4f5c-a679-7e2534d68d89/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c200f5a2-ac3d-45c6-bfce-8b82edebbc78/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/32fa532d-9d4f-4e9c-93da-3505bc082b09/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/65236923-d071-4a23-bfac-5cc05ec195e7/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/839064f3-acb3-434c-b68d-08e4b2774317/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/b30c7d36-d443-4c27-9800-9cc29e042140/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/9ec484f6-e390-4fe0-b94d-0f95404d12dd/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/41406460-3e52-4d77-bfbe-929b80e1bf19/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e11a0507-1256-4a1c-9248-f2b636fc1230/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": [
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:44Z",
+      "updatedAt": "2026-10-26T21:05:44Z"
+    },
+    {
+      "id": "imoda-armine-trend-tunik-1",
+      "code": "IMD-1021",
+      "title": "Armine Trend Hardal Sarı Tunik",
+      "slug": "armine-trend-tunik-1",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 1500,
+      "oldPrice": 1875,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Hardal Sarı Tunik — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-1",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-tunik-1-var-1",
+          "colorName": "SARI",
+          "colorHex": "#e6b800",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-1",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/a2239377-e053-4071-9df6-fc513c465799/1080/armine-trend-sari-tunik.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:47Z",
+      "updatedAt": "2026-10-26T21:05:47Z"
+    },
+    {
+      "id": "imoda-armine-trend-tunik-2",
+      "code": "IMD-1022",
+      "title": "Armine Trend Klasik Siyah Tunik",
+      "slug": "armine-trend-tunik-2",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 1500,
+      "oldPrice": 1875,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Klasik Siyah Tunik — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-2",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-tunik-2-var-1",
+          "colorName": "SİYAH",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-2",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/881e034e-45b5-46fc-a234-6c64a335d062/1080/arnine-trend-siyah-tunik.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:49Z",
+      "updatedAt": "2026-10-26T21:05:49Z"
+    },
+    {
+      "id": "imoda-armine-trend-tunik-3",
+      "code": "IMD-1023",
+      "title": "Armine Trend Yağ Yeşili Tunik",
+      "slug": "armine-trend-tunik-3",
+      "category": "tunik",
+      "categoryName": "Tunik",
+      "price": 1500,
+      "oldPrice": 1875,
+      "isNew": false,
+      "featured": true,
+      "hasColors": true,
+      "hasSizes": true,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Trend Yağ Yeşili Tunik — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-3",
+      "variants": [
+        {
+          "id": "imoda-armine-trend-tunik-3-var-1",
+          "colorName": "YAĞ YEŞİLİ",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-trend-tunik-3",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/4d665af9-b1e6-447d-9fd6-6668c29820ce/1080/armine-trend-tunik-yag-yesili.webp"
+          ],
+          "sizes": [
+            {
+              "size": "38",
+              "inStock": true
+            },
+            {
+              "size": "40",
+              "inStock": true
+            },
+            {
+              "size": "42",
+              "inStock": true
+            },
+            {
+              "size": "44",
+              "inStock": true
+            },
+            {
+              "size": "46",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:51Z",
+      "updatedAt": "2026-10-26T21:05:51Z"
+    },
+    {
+      "id": "imoda-armine-sura-ipek-esarp",
+      "code": "IMD-1024",
+      "title": "Armine Sura İpek Eşarp (Vizon & Mavi)",
+      "slug": "armine-sura-ipek-esarp",
+      "category": "esarp",
+      "categoryName": "İpek Eşarp & Şal",
+      "price": 3000,
+      "oldPrice": 3750,
+      "isNew": false,
+      "featured": true,
+      "hasColors": false,
+      "hasSizes": false,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Sura İpek Eşarp (Vizon & Mavi) — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp",
+      "variants": [
+        {
+          "id": "imoda-armine-sura-ipek-esarp-var-1",
+          "colorName": "Standart",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/e65b830a-9c4f-49da-a753-33e7e35b6527/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c7c1fc14-c2ed-41c0-bbaa-07a678f25a70/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": []
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:54Z",
+      "updatedAt": "2026-10-26T21:05:54Z"
+    },
+    {
+      "id": "imoda-armine-sura-ipek-esarp-1",
+      "code": "IMD-1025",
+      "title": "Armine Sura İpek Eşarp (Kahve & Zümrüt)",
+      "slug": "armine-sura-ipek-esarp-1",
+      "category": "esarp",
+      "categoryName": "İpek Eşarp & Şal",
+      "price": 3000,
+      "oldPrice": 3750,
+      "isNew": false,
+      "featured": true,
+      "hasColors": false,
+      "hasSizes": false,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Sura İpek Eşarp (Kahve & Zümrüt) — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp-1",
+      "variants": [
+        {
+          "id": "imoda-armine-sura-ipek-esarp-1-var-1",
+          "colorName": "Standart",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp-1",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/80ce54b3-e4e9-4f5b-954e-b8a1e38a4cfd/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/3c7b42b6-47d3-406d-8337-88d9475261bc/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": []
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:54Z",
+      "updatedAt": "2026-10-26T21:05:54Z"
+    },
+    {
+      "id": "imoda-armine-sura-ipek-esarp-2",
+      "code": "IMD-1026",
+      "title": "Armine Sura İpek Eşarp (Altın & Siyah)",
+      "slug": "armine-sura-ipek-esarp-2",
+      "category": "esarp",
+      "categoryName": "İpek Eşarp & Şal",
+      "price": 3000,
+      "oldPrice": 3750,
+      "isNew": false,
+      "featured": true,
+      "hasColors": false,
+      "hasSizes": false,
+      "hasFabricInfo": true,
+      "hasDescription": true,
+      "description": "Armine Sura İpek Eşarp (Altın & Siyah) — i-moda Tesettür'ün yeni sezon koleksiyonundan. Zarif duruşu, dökümlü ve rahat kalıbıyla hem günlük şıklıkta hem de özel günlerde konforu ve zarafeti bir arada sunar.",
+      "fabricInfo": "1. Sınıf dökümlü özel dokuma kumaş. Kırışmaya dayanıklı, nefes alan ve terletmeyen yapısıyla dört mevsim konfor sağlar.",
+      "instagramPostUrl": "https://www.instagram.com/imoda_tesettur/",
+      "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp-2",
+      "variants": [
+        {
+          "id": "imoda-armine-sura-ipek-esarp-2-var-1",
+          "colorName": "Standart",
+          "colorHex": "#1a1816",
+          "ikasUrl": "https://imodatesettur.com/armine-sura-ipek-esarp-2",
+          "images": [
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/1eec42c9-96ba-4500-a13b-8b6e20a622ff/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/dbcedb07-b389-49ab-bdd6-a7fd49abebcb/1080/whatsapp-image-2026-06-08-at-11.webp",
+            "https://cdn.myikas.com/images/ded3c0b1-00da-4bbf-93e9-103229804ab5/c73e22d4-87ea-4efa-b1d4-f2205be3173c/1080/whatsapp-image-2026-06-08-at-11.webp"
+          ],
+          "sizes": []
+        }
+      ],
+      "createdAt": "2026-10-26T21:05:56Z",
+      "updatedAt": "2026-10-26T21:05:56Z"
+    }
+  ]
+}

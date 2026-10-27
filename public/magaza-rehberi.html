@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samsun Tesettür Giyim &amp; Bafra Mağaza Rehberi | i-moda Tesettür</title>
+  <meta name="description" content="i-moda Tesettür Samsun Bafra fiziksel mağaza adresi, yol tarifi, çalışma saatleri, iletişim ve yeni sezon tesettür giyim koleksiyonu rehberi." />
+  <link rel="icon" type="image/webp" href="/images/brand/imoda-logo.webp" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    .rehber-hero {
+      background: linear-gradient(180deg, #181715 0%, #11100f 100%);
+      color: #fff;
+      padding: 48px 0 40px;
+      border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+      margin-bottom: 40px;
+    }
+    .rehber-breadcrumb {
+      font-size: 12px;
+      color: var(--parla-gold-light);
+      margin-bottom: 14px;
+      letter-spacing: 0.05em;
+    }
+    .rehber-breadcrumb a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: underline;
+    }
+    .rehber-breadcrumb a:hover {
+      color: #fff;
+    }
+    .rehber-title {
+      font-family: var(--font-secondary);
+      font-size: clamp(26px, 3.5vw, 42px);
+      font-weight: 400;
+      line-height: 1.2;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .rehber-sub {
+      font-size: 14px;
+      color: rgba(255,255,255,0.78);
+      max-width: 680px;
+      line-height: 1.6;
+    }
+    .rehber-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 40px;
+      align-items: start;
+      margin-bottom: 60px;
+    }
+    .map-embed-card {
+      background: #fff;
+      border: 1px solid var(--parla-border);
+      border-radius: var(--radius-custom);
+      overflow: hidden;
+      box-shadow: 0 16px 36px rgba(20, 18, 16, 0.08);
+      position: sticky;
+      top: 90px;
+    }
+    .map-frame-wrap {
+      width: 100%;
+      height: 320px;
+      background: #eee;
+      position: relative;
+    }
+    .map-frame-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .map-card-body {
+      padding: 24px;
+    }
+    .map-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .map-card-title {
+      font-family: var(--font-secondary);
+      font-size: 20px;
+      color: var(--parla-black);
+      margin-bottom: 4px;
+    }
+    .map-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13.5px;
+      color: var(--parla-charcoal);
+      margin: 16px 0 20px;
+      line-height: 1.6;
+    }
+    .map-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .map-info-item svg {
+      flex-shrink: 0;
+      color: var(--parla-gold-dark);
+      margin-top: 3px;
+    }
+    .map-action-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .map-btn-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 14px;
+      background: var(--parla-black);
+      color: var(--parla-gold-light);
+      border: 1px solid var(--parla-black);
+      border-radius: var(--radius-custom);
+      font-size: 12.5px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .map-btn-primary:hover {
+      background: var(--parla-gold-dark);
+      color: #fff;
+      border-color: var(--parla-gold-dark);
+    }
+    .map-btn-secondary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 14px;
+      background: #f7f9f7;
+      color: #128c7e;
+      border: 1px solid #c2ecd0;
+      border-radius: var(--radius-custom);
+      font-size: 12.5px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .map-btn-secondary:hover {
+      background: #25d366;
+      color: #fff;
+      border-color: #25d366;
+    }
+    .copy-address-btn {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 9px 12px;
+      background: var(--parla-cream);
+      color: var(--parla-charcoal);
+      border: 1px solid var(--parla-border);
+      border-radius: var(--radius-custom);
+      font-size: 12px;
+      cursor: pointer;
+      font-family: var(--font-primary);
+      transition: all 0.2s ease;
+    }
+    .copy-address-btn:hover {
+      background: #fff;
+      border-color: var(--parla-gold);
+      color: var(--parla-black);
+    }
+    .transit-hint {
+      margin-top: 16px;
+      padding: 12px 14px;
+      background: #faf8f5;
+      border-radius: var(--radius-custom);
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--parla-muted);
+      border-left: 3px solid var(--parla-gold);
+    }
+    @media (max-width: 960px) {
+      .rehber-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .map-embed-card {
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-message">
+        <span class="top-bar-gold">✦ İ-MODA TESETTÜR</span>
+        <span class="top-bar-divider">|</span>
+        <span>Samsun Bafra Butik Mağazamız &amp; İkas Güvencesiyle Online Sipariş</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" class="top-bar-link">@imoda_tesettur</a>
+        <span class="top-bar-divider">|</span>
+        <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer" class="top-bar-link">+90 546 642 61 55</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo">
+        <img src="/images/brand/imoda-logo.webp" alt="i-moda Tesettür Logo" class="brand-logo-img" onerror="this.style.display='none'" />
+        <div class="brand-logo-text">
+          <span class="brand-logo-title">İ-MODA TESETTÜR</span>
+          <span class="brand-logo-sub">Samsun · Bafra</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" style="display:flex; gap:20px; align-items:center;">
+        <a href="/" class="nav-link">← ANA SAYFA</a>
+        <a href="/#koleksiyon" class="nav-link">TÜM ÜRÜNLER</a>
+        <a href="/samsun-tesettur-giyim" class="nav-link active">MAĞAZA &amp; KONUM</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer" class="header-text-link" title="Instagram">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer" class="header-text-link" title="WhatsApp Sipariş">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. PAGE HERO -->
+  <section class="rehber-hero">
+    <div class="container">
+      <div class="rehber-breadcrumb">
+        <a href="/">Ana Sayfa</a> &nbsp;›&nbsp; <span>Samsun Tesettür Giyim &amp; Mağaza Rehberi</span>
+      </div>
+      <h1 class="rehber-title">Samsun Tesettür Giyim &amp; Butik Mağazamız</h1>
+      <p class="rehber-sub">
+        Zarafeti, modern kesimleri ve 1. sınıf kumaş kalitesini bir araya getiren i-moda Tesettür; Samsun Bafra Cumhuriyet Mahallesi'ndeki butik mağazasında ve Türkiye geneli online satışlarıyla hizmetinizdedir.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. MAIN CONTENT & INTERACTIVE MAP GRID -->
+  <main class="container">
+    <div class="rehber-grid">
+
+      <!-- Left Column: Editorial & FAQ -->
+      <div>
+        <span class="seo-eyebrow">SAMSUN · BAFRA · ATAKUM · İLKADIM · TÜM TÜRKİYE</span>
+        <h2 class="block-title" style="margin-top: 6px; margin-bottom: 18px; font-size: 28px;">
+          Samsun'da Seçkin Tesettür Modası: i-moda Butik Deneyimi
+        </h2>
+
+        <div style="font-size: 14.5px; line-height: 1.8; color: var(--parla-charcoal); display: flex; flex-direction: column; gap: 16px;">
+          <p>
+            <strong>Samsun tesettür giyim</strong> sektöründe zarafeti, modern kesimleri ve 1. sınıf kumaş kalitesini bir araya getiren <strong>i-moda Tesettür</strong>, Samsun Bafra Cumhuriyet Mahallesi Hükümet Caddesi'ndeki mağazası ve İkas güvenceli online butiğiyle Karadeniz bölgesinin öncü tesettür giyim adresidir.
+          </p>
+          <p>
+            Koleksiyonumuzda günlük şıklıktan özel davetlere kadar her stile hitap eden <strong>tesettür ikili takım</strong>, tunikli ve etekli takımlar, dökümlü <strong>pardesü, kap, trençkot, giyçık ve ferace</strong> modelleri yer almaktadır. Ayrıca <strong>Armine Trend</strong>, <strong>Armine Sura %100 İpek Eşarp</strong>, özel seri şal koleksiyonları, <strong>tesettür elbise</strong>, <strong>tunik &amp; gömlek</strong>, pantolon ve seçkin çanta (Nas Bag, Just Polo) tasarımları mağazamızda sergilenmektedir.
+          </p>
+          <p>
+            Başta <strong>Samsun merkez (İlkadım, Atakum, Canik, Tekkeköy)</strong>, <strong>Bafra</strong>, <strong>Çarşamba</strong>, <strong>Terme</strong>, <strong>Vezirköprü</strong>, <strong>Alaçam</strong> ve <strong>19 Mayıs</strong> ilçeleri olmak üzere hem mağazamızdan birebir deneyimleme imkanı hem de İkas üzerinden tüm Türkiye'ye ücretsiz/hızlı kargo avantajıyla alışveriş yapabilirsiniz.
+          </p>
+        </div>
+
+        <!-- Keyword Pills -->
+        <div style="margin: 28px 0 36px;">
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--parla-gold-dark); margin-bottom: 12px;">
+            ÖNE ÇIKAN KOLEKSİYONLAR
+          </div>
+          <div class="seo-keyword-pills">
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="takimlar">Samsun Tesettür İkili Takım</a>
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="pardesu">Pardesü, Kap &amp; Trençkot</a>
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="elbise">Tesettür Elbise Samsun</a>
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="esarp">Armine İpek Eşarp Samsun</a>
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="tunik">Tesettür Tunik &amp; Gömlek</a>
+            <a href="/#koleksiyon" class="seo-pill" data-filter-cat="aksesuar">Just Polo Çanta &amp; Aksesuar</a>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div style="margin-top: 36px;">
+          <h3 style="font-family: var(--font-secondary); font-size: 24px; color: var(--parla-black); margin-bottom: 16px;">
+            Sıkça Sorulan Sorular (SSS)
+          </h3>
+          <div class="seo-faq-list">
+            <details class="seo-faq-item" open>
+              <summary class="seo-faq-question">Samsun tesettür giyim mağazanız tam olarak nerede?</summary>
+              <div class="seo-faq-answer">
+                Fiziksel butik mağazamız <strong>Samsun Bafra</strong> ilçe merkezinde (Cumhuriyet Mahallesi Hükümet Caddesi No: 10/B) yer almaktadır. Bafra Cumhuriyet Meydanı ve Hükümet Konağı'na sadece 2 dakikalık yürüme mesafesindedir.
+              </div>
+            </details>
+            <details class="seo-faq-item">
+              <summary class="seo-faq-question">Samsun merkezden (İlkadım / Atakum) mağazaya nasıl gelinir?</summary>
+              <div class="seo-faq-answer">
+                Samsun Büyük Cami ve Otogar mevkiinden kalkan Bafra ekspres dolmuşları ile yaklaşık 35-40 dakikada Bafra ilçe merkezine ulaşabilir ve mağazamızı ziyaret edebilirsiniz.
+              </div>
+            </details>
+            <details class="seo-faq-item">
+              <summary class="seo-faq-question">Online siparişlerde ödeme ve teslimat nasıl yapılıyor?</summary>
+              <div class="seo-faq-answer">
+                Beğendiğiniz tüm ürünleri resmi <strong>İkas e-ticaret altyapımız</strong> üzerinden kredi kartı veya banka kartıyla 256-bit SSL korumasıyla satın alabilirsiniz. Türkiye genelinde aynı gün / hızlı kargo imkanı sunulmaktadır.
+              </div>
+            </details>
+            <details class="seo-faq-item">
+              <summary class="seo-faq-question">Mağazanızda hangi markalar ve ürün grupları bulunuyor?</summary>
+              <div class="seo-faq-answer">
+                Yeni sezon <strong>tesettür ikili takımlar</strong>, pantolonlu ve etekli takımlar, <strong>pardesü, kap, ferace, giyçık</strong>, şık elbiseler, <strong>Armine Sura %100 ipek eşarp</strong>, pamuklu ve jakarlı şallar ile Nas Bag ve Just Polo çantalar mevcuttur.
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Location & Map Card -->
+      <div>
+        <div class="map-embed-card">
+          <!-- Google Maps Iframe Embed -->
+          <div class="map-frame-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=41.5678,35.9069&hl=tr&z=16&output=embed"
+              title="i-moda Tesettür Samsun Bafra Konum Haritası"
+              loading="lazy"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="map-card-body">
+            <div class="map-card-header">
+              <div>
+                <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--parla-gold-dark); font-weight: 600;">
+                  FİZİKSEL MAĞAZAMIZ
+                </span>
+                <h3 class="map-card-title">i-moda Tesettür (Bafra / Samsun)</h3>
+              </div>
+              <span class="seo-rating-pill">★ 4.9 / 5.0 (184 Yorum)</span>
+            </div>
+
+            <div class="map-info-list">
+              <div class="map-info-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><strong>Adres:</strong> Cumhuriyet Mah. Hükümet Cad. No: 10/B, 55400 Bafra / Samsun</span>
+              </div>
+              <div class="map-info-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span><strong>Çalışma Saatleri:</strong> Her Gün: 09:00 – 20:30</span>
+              </div>
+              <div class="map-info-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span><strong>Telefon / Danışma:</strong> <a href="tel:+905466426155" style="font-weight:600; color:var(--parla-black);">+90 546 642 61 55</a></span>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="map-action-grid">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=41.5678,35.9069" target="_blank" rel="noopener noreferrer" class="map-btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Google Harita Yol Tarifi</span>
+              </a>
+
+              <a href="https://wa.me/905466426155?text=Merhaba%20i-moda%20Tesett%C3%BCr%2C%20Samsun%20Bafra%20ma%C4%9Fazan%C4%B1z%C4%B1n%20konumunu%20ve%20yol%20tarifini%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="map-btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <span>WhatsApp ile Konum Al</span>
+              </a>
+
+              <button type="button" class="copy-address-btn" id="copyAddressBtn">
+                📋 Adresi Panoya Kopyala
+              </button>
+            </div>
+
+            <div class="transit-hint">
+              <strong>Ulaşım Notu:</strong> Bafra Hükümet Konağı karşısındaki caddede yer almaktayız. Samsun merkezden Bafra dolmuşları ile cadde girişinde inebilirsiniz.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 5. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <img src="/images/brand/imoda-logo.webp" alt="i-moda Tesettür" class="brand-logo-img" style="filter: brightness(0) invert(1);" onerror="this.style.display='none'" />
+            <div class="brand-logo-text">
+              <span class="brand-logo-title" style="color: var(--parla-white);">İ-MODA TESETTÜR</span>
+              <span class="brand-logo-sub" style="color: var(--parla-gold-light);">Samsun · Bafra</span>
+            </div>
+          </div>
+          <p style="font-size: 13px; color: rgba(255,255,255,0.72); line-height: 1.7; max-width: 340px;">
+            Günümüz kadınının asil ve zarif tarzını yansıtan seçkin tesettür giyim koleksiyonları, ikili takımlar, şık elbiseler, dökümlü pardesüler ve ipek eşarplar.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-heading">KATEGORİLER</div>
+          <div class="footer-links">
+            <a href="/#koleksiyon" data-filter-cat="takimlar">Takım &amp; İkili Takım</a>
+            <a href="/#koleksiyon" data-filter-cat="pardesu">Pardesü &amp; Trençkot</a>
+            <a href="/#koleksiyon" data-filter-cat="elbise">Elbise</a>
+            <a href="/#koleksiyon" data-filter-cat="tunik">Tunik &amp; Gömlek</a>
+            <a href="/#koleksiyon" data-filter-cat="esarp">İpek Eşarp &amp; Şal</a>
+            <a href="/#koleksiyon" data-filter-cat="pantolon">Pantolon &amp; Etek</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-heading">KURUMSAL &amp; REHBER</div>
+          <div class="footer-links">
+            <a href="/samsun-tesettur-giyim">Samsun Tesettür Mağaza Rehberi</a>
+            <a href="/bafra-tesettur-giyim">Bafra Butik &amp; Konum</a>
+            <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer">Instagram Mağazamız</a>
+            <a href="https://imodatesettur.com" target="_blank" rel="noopener noreferrer">İkas Online Mağazamız</a>
+            <a href="https://wa.me/905466426155" target="_blank" rel="noopener noreferrer">WhatsApp Sipariş &amp; Danışma</a>
+            <a href="/sitemap.xml" target="_blank">Site Haritası (Sitemap XML)</a>
+            <a href="/admin">Yönetim Paneli</a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-contact-col">
+          <div class="footer-heading">İLETİŞİM &amp; BUTİK</div>
+          <div class="footer-links">
+            <span>📍 Cumhuriyet Mah. Hükümet Cad. No: 10/B, Bafra / Samsun</span>
+            <a href="tel:+905466426155">📞 +90 546 642 61 55</a>
+            <a href="https://www.instagram.com/imoda_tesettur/" target="_blank" rel="noopener noreferrer">📷 @imoda_tesettur</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 i-moda Tesettür (Murat Ak). Tüm Hakları Saklıdır.</span>
+        <span>Online Satışlar İkas E-Ticaret Güvencesiyle Gerçekleştirilmektedir.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('copyAddressBtn')?.addEventListener('click', () => {
+      const address = 'Cumhuriyet Mah. Hükümet Cad. No: 10/B, 55400 Bafra / Samsun';
+      navigator.clipboard.writeText(address).then(() => {
+        const btn = document.getElementById('copyAddressBtn');
+        const oldText = btn.textContent;
+        btn.textContent = '✅ Adres Panoya Kopyalandı!';
+        btn.style.borderColor = 'var(--parla-gold-dark)';
+        setTimeout(() => {
+          btn.textContent = oldText;
+          btn.style.borderColor = '';
+        }, 2500);
+      });
+    });
+  </script>
+</body>
+</html>
