@@ -191,17 +191,19 @@
       return;
     }
 
-    col.innerHTML = cards.map(c => `
-      <div class="hero-img-card sheen-wrap" data-open-slug="${c.slug || ''}" style="cursor:pointer" title="${c.title || 'Vitrin Ürünü'}">
-        <img src="${c.image}" alt="${c.title || 'Vitrin Ürünü'}" loading="eager" />
-      </div>
-    `).join('');
+    if (col.children.length === 0) {
+      col.innerHTML = cards.map((c, idx) => `
+        <div class="hero-img-card sheen-wrap" data-open-slug="${c.slug || ''}" style="cursor:pointer" title="${c.title || 'Vitrin Ürünü'}">
+          <img src="${c.image}" alt="${c.title || 'Vitrin Ürünü'} | Samsun Tesettür Giyim" width="400" height="560" ${idx === 0 ? 'fetchpriority="high" loading="eager"' : 'loading="lazy" decoding="async"'} />
+        </div>
+      `).join('');
+    }
 
     col.querySelectorAll('[data-open-slug]').forEach(card => {
-      card.addEventListener('click', () => {
+      card.onclick = () => {
         const slug = card.getAttribute('data-open-slug');
         if (slug) openProductModal(slug);
-      });
+      };
     });
   }
 
@@ -453,7 +455,7 @@
     return `
       <article class="product-card" data-card-key="${stateKey}" data-product-id="${product.id}">
         <div class="product-media sheen-wrap" data-open-product="${product.id}" data-primary-img="${primaryImg}" data-hover-img="${hoverImg}">
-          <img src="${primaryImg}" alt="${product.title}${hasColors && activeVariant.colorName ? ' - ' + activeVariant.colorName : ''} | Samsun Tesettür Giyim i-moda" loading="lazy" />
+          <img src="${primaryImg}" alt="${product.title}${hasColors && activeVariant.colorName ? ' - ' + activeVariant.colorName : ''} | Samsun Tesettür Giyim i-moda" loading="lazy" decoding="async" width="450" height="600" />
           ${product.isNew ? '<span class="product-subtle-tag">Yeni</span>' : ''}
         </div>
 

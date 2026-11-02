@@ -1,9 +1,36 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const compression = require('compression');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Security Headers & Hardening
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+  res.removeHeader('X-Powered-By');
+
+  // Prevent dotfile / sensitive configuration leakage
+  const reqPath = req.path.toLowerCase();
+  if (reqPath.includes('/.') || reqPath.includes('package.json') || reqPath.includes('package-lock.json')) {
+    return res.status(403).send('Erişim engellendi');
+  }
+  next();
+});
+
+// Gzip / Deflate Compression
+app.use(compression({
+  threshold: 1024,
+  filter: (req, res) => {
+    if (req.headers['x-no-compression']) return false;
+    return compression.filter(req, res);
+  }
+}));
 
 const DATA_FILE = path.join(__dirname, 'data', 'products.json');
 const UPLOAD_DIR = path.join(__dirname, 'public', 'images', 'uploads');
@@ -22,8 +49,22 @@ fs.mkdirSync(INSTAGRAM_MEDIA_DIR, { recursive: true });
 
 app.use(express.json({ limit: '25mb' }));
 app.use(express.urlencoded({ extended: true, limit: '25mb' }));
-app.use(express.static(path.join(__dirname, 'public'), { index: false }));
-app.use('/instagram_medya', express.static(INSTAGRAM_MEDIA_DIR));
+
+// Static Assets with Cache-Control headers
+const staticOpts = {
+  index: false,
+  dotfiles: 'ignore',
+  maxAge: '7d',
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate');
+    } else if (/\.(css|js|webp|jpg|jpeg|png|svg|woff2|ico)$/i.test(filePath)) {
+      res.setHeader('Cache-Control', 'public, max-age=604800, stale-while-revalidate=86400');
+    }
+  }
+};
+app.use(express.static(path.join(__dirname, 'public'), staticOpts));
+app.use('/instagram_medya', express.static(INSTAGRAM_MEDIA_DIR, staticOpts));
 
 // Safe helpers to read/write JSON database
 function readData() {
@@ -839,15 +880,19 @@ function buildStructuredData(data, baseUrl, routeOpts = {}) {
     sameAs: [
       s.instagram || 'https://www.instagram.com/imoda_tesettur/',
       s.ikasStoreUrl || 'https://imodatesettur.com'
-    ],
-    aggregateRating: {
+    ]
+  };
+
+  // Only include aggregateRating if real review/rating metrics exist in settings
+  if (seo.ratingValue && seo.reviewCount) {
+    storeSchema.aggregateRating = {
       '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '184',
+      ratingValue: String(seo.ratingValue),
+      reviewCount: String(seo.reviewCount),
       bestRating: '5',
       worstRating: '1'
-    }
-  };
+    };
+  }
 
   const websiteSchema = {
     '@type': 'WebSite',
@@ -1006,7 +1051,7 @@ function renderStorefrontHTML(req, res, routeOpts = {}) {
     const baseUrl = getBaseUrl(req, s);
 
     let pageTitle = seo.seoTitle || 'Samsun Tesettür Giyim | i-moda Tesettür Bafra Butik & Online Mağaza';
-    let pageDesc = seo.seoDescription || 'Samsun tesettür giyim ve Bafra tesettür mağazası i-moda Tesettür! Yeni sezon ikili takım, pardesü, kap, trençkot, tesettür elbise, tunik ve Armine Sura ipek eşarp modelleri İkas güvencesiyle kapınızda.';
+    let pageDesc = seo.seoDescription || 'Samsun tesettür giyim ve Bafra butiği i-moda Tesettür! Yeni sezon ikili takım, pardesü, kap, elbise ve Armine ipek eşarplar İkas güvencesiyle kapınızda.';
     let pageKeywords = seo.seoKeywords || 'samsun tesettür giyim, bafra tesettür giyim, samsun tesettür mağazaları, i-moda tesettür, tesettür ikili takım, armine ipek eşarp samsun';
     let canonicalUrl = `${baseUrl}${req.path === '/' ? '' : req.path}`;
     let ogImage = `${baseUrl}${seo.ogImage || '/images/instagram/fotograf_01_DePEPuOs9ic.jpg'}`;
@@ -1109,6 +1154,27 @@ function renderStorefrontHTML(req, res, routeOpts = {}) {
     </div>
   </div>`;
 
+    // Inject Server-Side Pre-rendered Hero Visual Cards to eliminate CLS and accelerate LCP
+    if (!routeOpts.localPage) {
+      const heroCards = (s.heroImages && s.heroImages.length > 0)
+        ? s.heroImages.filter(h => h && h.image)
+        : (data.products || []).slice(0, 3).map(p => ({
+            image: (p.variants && p.variants[0] && p.variants[0].images && p.variants[0].images[0]) || '/images/brand/imoda-logo.webp',
+            title: p.title,
+            slug: p.slug
+          }));
+
+      const heroCardsHtml = heroCards.map((c, idx) => `
+        <div class="hero-img-card sheen-wrap" data-open-slug="${escapeHtml(c.slug || '')}" style="cursor:pointer" title="${escapeHtml(c.title || 'Vitrin Ürünü')}">
+          <img src="${escapeHtml(c.image)}" alt="${escapeHtml(c.title || 'Vitrin Ürünü')} | Samsun Tesettür Giyim" width="400" height="560" ${idx === 0 ? 'fetchpriority="high" loading="eager"' : 'loading="lazy" decoding="async"'} />
+        </div>`).join('');
+
+      html = html.replace(
+        '<div class="hero-visual-col" id="heroVisualCol">',
+        `<div class="hero-visual-col" id="heroVisualCol">${heroCardsHtml}`
+      );
+    }
+
     html = html.replace('</body>', `${ssrLinksHtml}\n</body>`);
     res.send(html);
   } catch (err) {
@@ -1138,6 +1204,17 @@ app.get('/urun/:slug', (req, res) => {
     renderStorefrontHTML(req, res, { product });
   } catch (err) {
     renderStorefrontHTML(req, res);
+  }
+});
+
+// 404 Custom Error Handler
+app.use((req, res) => {
+  if (req.accepts('html')) {
+    res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
+  } else if (req.accepts('json')) {
+    res.status(404).json({ error: 'Sayfa veya kaynak bulunamadı (404)' });
+  } else {
+    res.status(404).type('txt').send('404 Not Found');
   }
 });
 

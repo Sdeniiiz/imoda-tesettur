@@ -6,7 +6,7 @@
   --parla-charcoal: #1a1816;
   --parla-gold: #c5a059;
   --parla-gold-light: #dfc286;
-  --parla-gold-dark: #9a7836;
+  --parla-gold-dark: #826224;
   --parla-cream: #faf8f5;
   --parla-sand: #f2ece1;
   --parla-white: #ffffff;
@@ -41,12 +41,27 @@ html {
   background-color: var(--parla-white);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   background-color: var(--parla-white);
   color: var(--parla-text);
   overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Accessibility Focus Visibility (WCAG 2.1 AA) */
+:focus-visible {
+  outline: 2px solid var(--parla-gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+  outline: none;
 }
 
 a {
@@ -870,7 +885,10 @@ img {
 .filter-tab {
   background: none;
   border: none;
-  padding: 4px 0;
+  padding: 8px 6px;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-primary);
   font-size: 13px;
   font-weight: 400;
@@ -894,7 +912,7 @@ img {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -15px;
+  bottom: 0px;
   height: 2px;
   background-color: var(--parla-gold);
 }
@@ -915,7 +933,12 @@ img {
   font-size: 12px;
   color: var(--parla-muted);
   cursor: pointer;
-  padding: 2px 4px;
+  padding: 6px 8px;
+  min-height: 38px;
+  min-width: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .size-filter-link:hover,
@@ -930,6 +953,14 @@ img {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px 12px;
+}
+
+.products-grid:empty {
+  min-height: 480px;
+}
+
+.categories-grid:empty {
+  min-height: 180px;
 }
 
 @media (max-width: 350px) {
@@ -1024,21 +1055,22 @@ img {
 .product-colors-bar {
   display: flex;
   align-items: center;
-  gap: 6px;
-  min-height: 16px;
-  margin-bottom: 1px;
+  gap: 12px;
+  min-height: 28px;
+  margin-bottom: 4px;
 }
 
 .color-dots {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   flex-shrink: 0;
 }
 
 .color-dot {
-  width: 12px;
-  height: 12px;
+  position: relative;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.22);
   cursor: pointer;
@@ -1047,11 +1079,20 @@ img {
   flex-shrink: 0;
 }
 
+/* Touch Target Expansion (WCAG 2.1 Target Size AA) */
+.color-dot::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+}
+
 @media (min-width: 768px) {
   .color-dot {
-    width: 14px;
-    height: 14px;
-    gap: 6px;
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -1815,6 +1856,7 @@ body.is-loading {
   visibility: hidden;
   pointer-events: none;
   transform: scale(1.03);
+  display: none !important;
 }
 
 .splash-backdrop-glow {
@@ -2183,6 +2225,42 @@ body.is-loading {
    15. COMPREHENSIVE MOBILE OPTIMIZATIONS (< 768px & < 480px)
    ========================================================================== */
 @media (max-width: 768px) {
+  /* Site Header Mobile Hardening */
+  .header-inner {
+    height: 64px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  .brand-logo {
+    min-width: 0;
+    flex-shrink: 1;
+    gap: 8px;
+  }
+  .brand-logo-img {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  .brand-logo-title {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .brand-logo-sub {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+  }
+  .header-actions {
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  .header-actions .header-text-link span {
+    display: none;
+  }
+
   /* Top Bar */
   .top-bar-inner {
     flex-direction: column;
@@ -2215,11 +2293,15 @@ body.is-loading {
   }
   .filter-tab {
     white-space: nowrap;
-    font-size: 12.5px;
+    font-size: 13px;
     flex-shrink: 0;
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 6px;
   }
   .filter-tab.active::after {
-    bottom: -7px;
+    bottom: 2px;
   }
   .filter-Inline-group {
     width: 100%;
@@ -2237,7 +2319,12 @@ body.is-loading {
   .size-filter-link {
     white-space: nowrap;
     flex-shrink: 0;
-    padding: 1px 3px;
+    min-height: 38px;
+    min-width: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
   }
 
   /* Footer */
