@@ -1141,7 +1141,20 @@ app.get('/urun/:slug', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`i-moda Tesettür sunucusu çalışıyor: http://localhost:${PORT}`);
-  console.log(`Yönetim Paneli: http://localhost:${PORT}/admin`);
-});
+function startServer(port) {
+  const server = app.listen(port, () => {
+    console.log(`i-moda Tesettür sunucusu çalışıyor: http://localhost:${port}`);
+    console.log(`Yönetim Paneli: http://localhost:${port}/admin`);
+  });
+
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE' && !process.env.PORT) {
+      console.warn(`Port ${port} kullanımda, port ${Number(port) + 1} deneniyor...`);
+      startServer(Number(port) + 1);
+    } else {
+      console.error('Sunucu başlatılırken hata oluştu:', err);
+    }
+  });
+}
+
+startServer(PORT);
