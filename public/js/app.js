@@ -266,8 +266,8 @@
   function applySettings() {
     const s = catalog.settings || {};
     if (s.announcement) {
-      const el = document.getElementById('announcementText');
-      if (el) el.textContent = s.announcement;
+      const els = document.querySelectorAll('.announcement-text, #announcementText');
+      els.forEach(el => { el.textContent = s.announcement; });
     }
     if (s.brandName) {
       const t = document.getElementById('headerBrandTitle');
@@ -278,11 +278,11 @@
       if (sub) sub.textContent = s.subtitle;
     }
     if (s.instagram) {
-      const topInsta = document.getElementById('topInstagramLink');
-      if (topInsta) {
+      const topInstas = document.querySelectorAll('.top-instagram-link, #topInstagramLink');
+      topInstas.forEach(topInsta => {
         topInsta.href = s.instagram;
         if (s.instagramHandle) topInsta.textContent = s.instagramHandle;
-      }
+      });
       const headInsta = document.getElementById('headerInstagramAction');
       if (headInsta) headInsta.href = s.instagram;
       const footInsta = document.getElementById('footerInstagramLink');
@@ -290,11 +290,11 @@
     }
     if (s.whatsapp || s.phone) {
       const num = s.whatsapp || s.phone.replace(/[^0-9]/g, '');
-      const topPhone = document.getElementById('topPhoneLink');
-      if (topPhone) {
+      const topPhones = document.querySelectorAll('.top-phone-link, #topPhoneLink');
+      topPhones.forEach(topPhone => {
         topPhone.href = `https://wa.me/${num}`;
         topPhone.textContent = s.phone || `+${num}`;
-      }
+      });
       const headWa = document.getElementById('headerWhatsappAction');
       if (headWa) headWa.href = `https://wa.me/${num}`;
       const footWa = document.getElementById('footerWhatsappLink');
