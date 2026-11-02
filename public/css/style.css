@@ -89,7 +89,7 @@ img {
 }
 
 /* ==========================================
-   1. TOP BAR (Seamless Infinite Marquee / Kayar Yazı)
+   1. TOP BAR (Robin.com.tr Style Fixed Ticker)
    ========================================== */
 .top-bar {
   background-color: var(--parla-black);
@@ -98,49 +98,58 @@ img {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(197, 160, 89, 0.28);
-  padding: 0;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
+  padding: 0 16px;
   height: 34px;
   min-height: 34px;
   display: flex;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 
-.top-bar-marquee {
+.top-bar-inner {
+  max-width: 1440px;
   width: 100%;
-  overflow: hidden;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 100%;
+}
+
+/* Sabit Duyuru Penceresi: Uzun metinler kırılmadan tek satırda akar */
+.top-bar-ticker {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  max-width: 620px;
+  height: 100%;
+  display: flex;
+  align-items: center;
   user-select: none;
 }
 
-.marquee-track {
-  display: flex;
-  width: max-content;
-  flex-shrink: 0;
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: singleTickerGlide 15s linear infinite;
   will-change: transform;
-  animation: marqueeContinuous 32s linear infinite;
 }
 
-.top-bar:hover .marquee-track,
-.top-bar:active .marquee-track {
+.top-bar-ticker:hover .ticker-track,
+.top-bar-ticker:active .ticker-track {
   animation-play-state: paused;
 }
 
-.marquee-group {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
-.marquee-item {
+.ticker-text {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 0 22px;
   white-space: nowrap;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.92);
@@ -153,53 +162,67 @@ img {
 }
 
 .top-bar-divider {
-  opacity: 0.35;
+  opacity: 0.4;
   margin: 0 2px;
 }
 
+.top-bar-links {
+  display: none;
+  align-items: center;
+  gap: 16px;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  .top-bar-links {
+    display: flex;
+  }
+}
+
 .top-bar-link {
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.85);
   text-transform: none;
   letter-spacing: 0.03em;
   transition: color var(--transition-fast);
-  border-bottom: 1px dotted rgba(197, 160, 89, 0.45);
 }
 
 .top-bar-link:hover {
   color: var(--parla-gold-light);
-  border-bottom-color: var(--parla-gold-light);
 }
 
-@keyframes marqueeContinuous {
+@keyframes singleTickerGlide {
   0% {
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
   }
 }
 
 @media (max-width: 768px) {
   .top-bar {
+    padding: 0 10px;
     height: 32px;
     min-height: 32px;
   }
-  .marquee-item {
-    padding: 0 16px;
-    font-size: 10px;
+  .top-bar-ticker {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .ticker-text {
+    font-size: 10.5px;
     gap: 8px;
   }
-  .marquee-track {
-    animation-duration: 26s;
+  .ticker-track {
+    animation-duration: 14s;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .marquee-track {
+  .ticker-track {
     animation: none;
-    transform: none;
-    width: 100%;
-    overflow-x: auto;
+    padding-left: 0;
   }
 }
 
