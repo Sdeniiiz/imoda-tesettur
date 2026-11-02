@@ -58,7 +58,9 @@ const staticOpts = {
   setHeaders: (res, filePath) => {
     if (filePath.endsWith('.html')) {
       res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate');
-    } else if (/\.(css|js|webp|jpg|jpeg|png|svg|woff2|ico)$/i.test(filePath)) {
+    } else if (/\.(css|js)$/i.test(filePath)) {
+      res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+    } else if (/\.(webp|jpg|jpeg|png|svg|woff2|ico)$/i.test(filePath)) {
       res.setHeader('Cache-Control', 'public, max-age=604800, stale-while-revalidate=86400');
     }
   }
