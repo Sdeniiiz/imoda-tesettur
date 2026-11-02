@@ -89,7 +89,7 @@ img {
 }
 
 /* ==========================================
-   1. TOP BAR (Robin.com.tr Style Fixed Ticker)
+   1. TOP BAR (Bütün Olarak Kayan Şerit / Unified Ticker)
    ========================================== */
 .top-bar {
   background-color: var(--parla-black);
@@ -98,7 +98,7 @@ img {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(197, 160, 89, 0.28);
-  padding: 0 16px;
+  padding: 0;
   height: 34px;
   min-height: 34px;
   display: flex;
@@ -108,24 +108,11 @@ img {
   width: 100%;
 }
 
-.top-bar-inner {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  height: 100%;
-}
-
-/* Sabit Duyuru Penceresi: Uzun metinler kırılmadan tek satırda akar */
 .top-bar-ticker {
   position: relative;
   overflow: hidden;
   white-space: nowrap;
-  flex: 1;
-  max-width: 620px;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -137,7 +124,7 @@ img {
   align-items: center;
   white-space: nowrap;
   padding-left: 100%;
-  animation: singleTickerGlide 15s linear infinite;
+  animation: unifiedTickerGlide 24s linear infinite;
   will-change: transform;
 }
 
@@ -149,10 +136,17 @@ img {
 .ticker-text {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   white-space: nowrap;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.92);
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
 }
 
 .top-bar-gold {
@@ -161,37 +155,33 @@ img {
   letter-spacing: 0.06em;
 }
 
-.top-bar-divider {
-  opacity: 0.4;
-  margin: 0 2px;
+.top-bar-sub {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10px;
+  letter-spacing: 0.1em;
 }
 
-.top-bar-links {
-  display: none;
-  align-items: center;
-  gap: 16px;
-  font-size: 11px;
-  flex-shrink: 0;
-}
-
-@media (min-width: 1024px) {
-  .top-bar-links {
-    display: flex;
-  }
+.top-bar-sep {
+  color: var(--parla-gold);
+  opacity: 0.7;
+  font-size: 13px;
+  padding: 0 4px;
 }
 
 .top-bar-link {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.92);
   text-transform: none;
   letter-spacing: 0.03em;
   transition: color var(--transition-fast);
+  border-bottom: 1px dotted rgba(197, 160, 89, 0.5);
 }
 
 .top-bar-link:hover {
   color: var(--parla-gold-light);
+  border-bottom-color: var(--parla-gold-light);
 }
 
-@keyframes singleTickerGlide {
+@keyframes unifiedTickerGlide {
   0% {
     transform: translate3d(0, 0, 0);
   }
@@ -202,20 +192,15 @@ img {
 
 @media (max-width: 768px) {
   .top-bar {
-    padding: 0 10px;
     height: 32px;
     min-height: 32px;
   }
-  .top-bar-ticker {
-    max-width: 100%;
-    margin: 0 auto;
-  }
   .ticker-text {
-    font-size: 10.5px;
-    gap: 8px;
+    font-size: 10px;
+    gap: 10px;
   }
   .ticker-track {
-    animation-duration: 14s;
+    animation-duration: 22s;
   }
 }
 
